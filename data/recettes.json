@@ -1,0 +1,3068 @@
+{
+  "recettes": [
+    {
+      "id": 1,
+      "slug": "cheesecake-citron-vert-vanille",
+      "titre": "Cheesecake sans cuisson — citron vert, vanille & chocolat blanc",
+      "description": "Un cheesecake onctueux et frais, sans cuisson, à base de Philadelphia et mascarpone liés au chocolat blanc. Les zestes de citron vert et la vanille apportent une note aromatique légère et équilibrée.",
+      "categorie": "entremets-gateaux-montes",
+      "categorie_label": "Entremets et gâteaux montés",
+      "difficulte": "Facile",
+      "portions": 8,
+      "temps": {
+        "preparation_min": 25,
+        "cuisson_min": 0,
+        "repos_min": 360,
+        "total_min": 385,
+        "note_repos": "Minimum 6 heures au réfrigérateur, idéalement une nuit entière pour une prise optimale."
+      },
+      "materiel": [
+        "Cercle ou moule à charnière de 20 à 22 cm de diamètre",
+        "Spatule coudée",
+        "Robot ou fouet électrique",
+        "Bain-marie ou micro-ondes"
+      ],
+      "ingredients": [
+        {
+          "groupe": "Base biscuitée",
+          "items": [
+            {
+              "quantite": 145,
+              "unite": "g",
+              "nom": "spéculoos concassés"
+            },
+            {
+              "quantite": 73,
+              "unite": "g",
+              "nom": "beurre fondu"
+            }
+          ]
+        },
+        {
+          "groupe": "Appareil fromage frais",
+          "items": [
+            {
+              "quantite": 436,
+              "unite": "g",
+              "nom": "Philadelphia"
+            },
+            {
+              "quantite": 218,
+              "unite": "g",
+              "nom": "mascarpone"
+            },
+            {
+              "quantite": 290,
+              "unite": "g",
+              "nom": "chocolat blanc"
+            },
+            {
+              "quantite": 2,
+              "unite": null,
+              "nom": "citrons verts (zestes)"
+            },
+            {
+              "quantite": 1,
+              "unite": null,
+              "nom": "gousse de vanille ou c. à café d'extrait"
+            }
+          ]
+        }
+      ],
+      "etapes": [
+        {
+          "numero": 1,
+          "titre": "Préparer la base biscuitée",
+          "description": "Concasser finement les spéculoos. Mélanger avec le beurre fondu jusqu'à obtenir une texture sableuse homogène. Tasser fermement dans le fond du moule à l'aide du dos d'une cuillère ou d'un verre plat. Réfrigérer 30 minutes.",
+          "duree_min": 30,
+          "type": "repos_froid"
+        },
+        {
+          "numero": 2,
+          "titre": "Fondre le chocolat blanc",
+          "description": "Faire fondre le chocolat blanc au bain-marie ou par impulsions au micro-ondes (30 secondes à la fois, en mélangeant entre chaque). Laisser tiédir à température ambiante avant utilisation.",
+          "type": "technique",
+          "conseil": "Ne pas incorporer le chocolat blanc encore chaud : il ferait fondre les fromages frais et l'appareil deviendrait liquide. Attendre qu'il soit tiède au toucher."
+        },
+        {
+          "numero": 3,
+          "titre": "Préparer l'appareil fromage frais",
+          "description": "Fouetter le Philadelphia et le mascarpone ensemble jusqu'à obtenir une texture lisse, souple et homogène. Incorporer le chocolat blanc fondu tiède en filet, puis les zestes de citron vert et la vanille. Mélanger délicatement sans trop fouetter pour ne pas incorporer d'air.",
+          "type": "assemblage",
+          "conseil": "Le chocolat blanc joue ici le rôle d'agent de tenue, à la manière d'une gélatine. C'est lui qui assurera la prise au froid sans cuisson."
+        },
+        {
+          "numero": 4,
+          "titre": "Assembler le cheesecake",
+          "description": "Verser l'appareil fromage frais sur la base biscuitée froide. Lisser la surface à la spatule coudée pour obtenir une finition nette et régulière.",
+          "type": "assemblage"
+        },
+        {
+          "numero": 5,
+          "titre": "Réfrigérer",
+          "description": "Placer le cheesecake au réfrigérateur pendant minimum 6 heures, idéalement une nuit entière, pour une prise parfaite.",
+          "duree_min": 360,
+          "type": "repos_froid"
+        }
+      ],
+      "conseils": [
+        {
+          "titre": "Choix du moule",
+          "texte": "Un cercle ou moule à charnière de 20 à 22 cm de diamètre est idéal pour 8 parts. La hauteur de l'appareil sera d'environ 4 à 5 cm, ce qui donne une coupe nette et une belle présentation."
+        },
+        {
+          "titre": "Tenue sans gélatine",
+          "texte": "Le chocolat blanc est l'élément clé de la tenue de cet appareil. Sa teneur en beurre de cacao, en combinaison avec les matières grasses des fromages, assure une prise ferme après réfrigération. Il est essentiel de bien le laisser tiédir avant incorporation."
+        },
+        {
+          "titre": "Intensité aromatique",
+          "texte": "Pour les zestes de citron vert, 2 citrons représentent une note fraîche et équilibrée. Monter à 3 pour un profil plus vif et acidulé. La vanille peut être dosée à convenance selon qu'elle est en gousse ou en extrait."
+        },
+        {
+          "titre": "Accompagnement",
+          "texte": "Ce cheesecake se marie parfaitement avec un coulis de fruits rouges, qui peut être légèmerement gélifié (pectine, agar-agar) afin que la coupe reste nette."
+        }
+      ],
+      "tags": [
+        "sans cuisson",
+        "chocolat blanc",
+        "citron vert",
+        "fromage frais",
+        "spéculoos",
+        "cheesecake",
+        "frais",
+        "été"
+      ],
+      "saison_conseillee": ["Printemps", "Été"],
+      "statut": "publié",
+      "images": ["/images/cheesecake-citron-vert-vanille.jpg"]
+    },
+    {
+      "id": 2,
+      "slug": "pate-a-baba",
+      "titre": "Pâte à baba",
+      "description": "La pâte à baba est une pâte levée enrichie au beurre, légère et aérée, conçue pour être imbibée d'un sirop parfumé.",
+      "categorie": "pates-biscuits",
+      "categorie_label": "Pâtes et biscuits",
+      "source": "recette de formation",
+      "difficulte": "Intermediaire",
+      "portions": 16,
+      "portions_unite": "petits babas",
+      "temps": {
+        "preparation_min": 30,
+        "cuisson_min": 20,
+        "repos_min": 60,
+        "total_min": 110
+      },
+      "materiel": [
+        "Robot pâtissier avec crochet",
+        "Moules à babas",
+        "Poche à douille",
+        "Écumoire",
+        "Chinois"
+      ],
+      "ingredients": [
+        {
+          "groupe": "Pâte à baba",
+          "items": [
+            {
+              "quantite": 220,
+              "unite": "g",
+              "nom": "farine T55"
+            },
+            {
+              "quantite": 7,
+              "unite": "g",
+              "nom": "levure fraîche de boulanger"
+            },
+            {
+              "quantite": 50,
+              "unite": "g",
+              "nom": "sucre semoule"
+            },
+            {
+              "quantite": 3,
+              "unite": "g",
+              "nom": "sel"
+            },
+            {
+              "quantite": 2,
+              "unite": null,
+              "nom": "œufs"
+            },
+            {
+              "quantite": 70,
+              "unite": "g",
+              "nom": "lait"
+            },
+            {
+              "quantite": 100,
+              "unite": "g",
+              "nom": "beurre pommade"
+            }
+          ]
+        },
+        {
+          "groupe": "Sirop d'imbibage",
+          "items": [
+            {
+              "quantite": 750,
+              "unite": "g",
+              "nom": "eau"
+            },
+            {
+              "quantite": 400,
+              "unite": "g",
+              "nom": "sucre"
+            },
+            {
+              "quantite": 170,
+              "unite": "g",
+              "nom": "rhum"
+            },
+            {
+              "quantite": 1,
+              "unite": null,
+              "nom": "gousse de vanille"
+            },
+            {
+              "quantite": 1,
+              "unite": null,
+              "nom": "orange (zeste et jus)"
+            },
+            {
+              "quantite": 1,
+              "unite": null,
+              "nom": "citron (zeste et jus)"
+            }
+          ]
+        }
+      ],
+      "etapes": [
+        {
+          "numero": 1,
+          "titre": "Pétrir la pâte",
+          "description": "Tamiser la farine. Dans le bol du robot muni du crochet, mélanger la farine, la levure, le sucre et le sel. Battre légèrement les œufs avec le lait, incorporer les deux tiers au mélange. Pétrir brièvement, ajouter le reste et pétrir jusqu'à obtenir une pâte lisse et brillante.",
+          "type": "pétrissage"
+        },
+        {
+          "numero": 2,
+          "titre": "Incorporer le beurre",
+          "description": "Ajouter le beurre pommade et pétrir jusqu'à ce que la pâte soit soyeuse et élastique.",
+          "duree_min": 10,
+          "type": "pétrissage",
+          "conseil": "Compter au minimum 10 minutes de pétrissage au total pour obtenir un résultat bien moelleux."
+        },
+        {
+          "numero": 3,
+          "titre": "Première pousse",
+          "description": "Filmer la pâte et laisser lever à l'étuve à 27-28°C pendant 30 minutes, ou à température ambiante à l'abri des courants d'air, jusqu'à ce que la pâte double de volume.",
+          "duree_min": 30,
+          "type": "repos_chaud"
+        },
+        {
+          "numero": 4,
+          "titre": "Dresser et deuxième pousse",
+          "description": "Dégazer la pâte. À l'aide d'une poche à douille, remplir les moules à babas beurrés aux deux tiers. Couper la pâte aux ciseaux. Laisser lever à nouveau 30 minutes.",
+          "duree_min": 30,
+          "type": "repos_chaud"
+        },
+        {
+          "numero": 5,
+          "titre": "Cuisson",
+          "description": "Préchauffer le four à 180°C. Enfourner les babas pour 20 minutes environ, en surveillant la coloration. Démouler et laisser refroidir.",
+          "duree_min": 20,
+          "type": "cuisson"
+        },
+        {
+          "numero": 6,
+          "titre": "Préparer le sirop",
+          "description": "Porter l'eau, le sucre, les jus et zestes d'orange et de citron à ébullition. Hors du feu, ajouter la gousse de vanille fendue et le rhum. Couvrir et laisser infuser 15 minutes, puis passer au chinois.",
+          "duree_min": 15,
+          "type": "technique"
+        },
+        {
+          "numero": 7,
+          "titre": "Imbibage",
+          "description": "Déposer les babas côté croûte dans le sirop chaud. Les retourner à l'aide d'une écumoire, vérifier qu'ils sont bien imbibés, puis les égoutter sur une grille.",
+          "type": "assemblage",
+          "conseil": "Baba chaud = sirop froid ; baba froid = sirop chaud. Respecter cette règle garantit un imbibage homogène sans que le baba se désintègre."
+        }
+      ],
+      "conseils": [
+        {
+          "titre": "Temps de pétrissage",
+          "texte": "Le pétrissage doit durer au minimum 10 minutes au total pour développer le réseau glutineux nécessaire à la légèreté de la pâte."
+        },
+        {
+          "titre": "Version sans alcool",
+          "texte": "Remplacer le rhum par du jus d'agrumes supplémentaire (orange et citron) pour une version sans alcool tout aussi parfumée."
+        },
+        {
+          "titre": "Accompagnements",
+          "texte": "Le baba peut être servi avec une chantilly, une crème pâtissière ou une ganache montée selon l'occasion."
+        }
+      ],
+      "tags": ["baba", "pâte levée", "beurre", "rhum", "sirop", "technique"],
+      "statut": "publié",
+      "images": ["/images/pate-a-baba.jpg"]
+    },
+    {
+      "id": 3,
+      "slug": "creme-brulee-sans-cuisson",
+      "titre": "Crème brûlée sans cuisson",
+      "description": "Une crème brûlée onctueuse et légère, prise à la pectine NH sans passage au four. Les arômes (vanille, fève tonka, zestes) sont à adapter selon la saison et les envies.",
+      "categorie": "cremes-curds-ganache",
+      "categorie_label": "Crèmes, curds et ganache",
+      "source": "recette de formation",
+      "difficulte": "Intermediaire",
+      "portions": 6,
+      "portions_unite": "ramequins de 200 g",
+      "note_portions": "Cette base pour 1 L de crème donne 6 à 7 portions selon le remplissage des ramequins.",
+      "temps": {
+        "preparation_min": 20,
+        "cuisson_min": 10,
+        "repos_min": 180,
+        "total_min": 210,
+        "note_repos": "Minimum 3 heures au réfrigérateur, idéalement une nuit entière."
+      },
+      "materiel": [
+        "Casserole",
+        "Fouet",
+        "Cul-de-poule",
+        "Ramequins",
+        "Chalumeau de cuisine"
+      ],
+      "ingredients": [
+        {
+          "groupe": "Appareil crème brûlée",
+          "items": [
+            {
+              "quantite": 1000,
+              "unite": "g",
+              "nom": "crème liquide entière (1 L)"
+            },
+            {
+              "quantite": 67,
+              "unite": "g",
+              "nom": "sucre semoule"
+            },
+            {
+              "quantite": 7,
+              "unite": "g",
+              "nom": "pectine NH"
+            },
+            {
+              "quantite": 33,
+              "unite": "g",
+              "nom": "sucre semoule (mélange pectine)"
+            },
+            {
+              "quantite": 200,
+              "unite": "g",
+              "nom": "jaunes d'œufs"
+            },
+            {
+              "quantite": null,
+              "unite": null,
+              "nom": "arômes au choix (vanille, fève tonka, zestes de citron ou d'orange…)"
+            }
+          ]
+        }
+      ],
+      "etapes": [
+        {
+          "numero": 1,
+          "titre": "Infuser la crème",
+          "description": "Verser la crème liquide dans une casserole avec le sucre semoule et les arômes choisis. Chauffer à feu doux jusqu'aux premiers frémissements (40-50°C).",
+          "type": "technique",
+          "conseil": "Pour la vanille en gousse, la fendre et gratter les graines directement dans la crème froide avant de chauffer pour une infusion maximale."
+        },
+        {
+          "numero": 2,
+          "titre": "Incorporer la pectine",
+          "description": "Mélanger la pectine NH avec le sucre réservé à sec. Verser en pluie sur la crème tiède en fouettant sans arrêt. Porter à ébullition et maintenir 1 minute en remuant constamment.",
+          "duree_min": 1,
+          "type": "technique",
+          "conseil": "Le mélange pectine + sucre à sec est obligatoire : la pectine se disperse dans le sucre avant d'entrer en contact avec le liquide, ce qui évite la formation de grumeaux."
+        },
+        {
+          "numero": 3,
+          "titre": "Verser sur les jaunes",
+          "description": "Hors du feu, verser la crème chaude en filet sur les jaunes préalablement pesés dans un cul-de-poule, en fouettant doucement.",
+          "type": "assemblage",
+          "conseil": "Toujours verser la crème sur les jaunes, et non l'inverse. Fouetter doucement pour éviter les bulles d'air qui nuiraient à la surface de la crème une fois prise."
+        },
+        {
+          "numero": 4,
+          "titre": "Couler et réfrigérer",
+          "description": "Couler immédiatement l'appareil dans les ramequins. Laisser prendre au réfrigérateur minimum 3 heures, idéalement une nuit entière.",
+          "duree_min": 180,
+          "type": "repos_froid"
+        },
+        {
+          "numero": 5,
+          "titre": "Caraméliser au chalumeau",
+          "description": "Au moment du service, saupoudrer la surface de cassonade fine et brûler au chalumeau en deux passes circulaires pour obtenir une croûte régulière et bien craquante.",
+          "type": "finition",
+          "conseil": "Deux passes valent mieux qu'une seule longue : la première fond le sucre, la seconde le caramélise uniformément sans brûler."
+        }
+      ],
+      "conseils": [
+        {
+          "titre": "Pectine NH uniquement",
+          "texte": "Utiliser exclusivement de la pectine NH (et non pectine jaune ou autre). Elle gélifie à chaud et fige au froid, ce qui assure la tenue de la crème sans cuisson au bain-marie."
+        },
+        {
+          "titre": "Arômes",
+          "texte": "La recette se prête à de nombreuses variations : vanille Bourbon, fève tonka râpée, zestes de citron jaune ou vert, zestes d'orange, cardamome… Les arômes peuvent être combinés selon la saison."
+        },
+        {
+          "titre": "Version allégée",
+          "texte": "Pour une texture plus légère, il est possible de remplacer jusqu'à 20 % de la crème liquide par du lait entier, en gardant les mêmes quantités de pectine et de jaunes."
+        }
+      ],
+      "tags": [
+        "crème brûlée",
+        "sans cuisson",
+        "pectine",
+        "vanille",
+        "tonka",
+        "jaunes",
+        "crème"
+      ],
+      "saison_conseillee": ["Toute l'année"],
+      "statut": "publié",
+      "images": ["/images/hero-patissons.jpg"]
+    },
+    {
+      "id": 4,
+      "slug": "financiers-noisettes-conticini",
+      "titre": "Financiers noisettes — Philippe Conticini",
+      "description": "Financiers moelleux et dorés, intenses en noisette, selon la recette de Philippe Conticini. Une pâte simple mélangée au fouet, sans beurre noisette, pour laisser toute la place à la poudre de noisette.",
+      "categorie": "pates-biscuits",
+      "categorie_label": "Pâtes et biscuits",
+      "source": "Philippe Conticini",
+      "difficulte": "Facile",
+      "portions_unite": "financiers (selon taille des moules)",
+      "note_portions": "La recette donne environ 1,5 kg de pâte. Le nombre de pièces dépend de la taille des moules utilisés (moules individuels de 30 à 40 g : environ 35 à 45 pièces).",
+      "temps": {
+        "preparation_min": 10,
+        "cuisson_min": 12,
+        "repos_min": 0,
+        "total_min": 22,
+        "note_cuisson": "Four à 170°C, chaleur tournante de préférence."
+      },
+      "materiel": [
+        "Batteur sur socle ou fouet électrique",
+        "Poche à douille",
+        "Moules à financiers beurrés"
+      ],
+      "ingredients": [
+        {
+          "groupe": "Pâte à financiers",
+          "items": [
+            {
+              "quantite": 390,
+              "unite": "g",
+              "nom": "sucre glace"
+            },
+            {
+              "quantite": 325,
+              "unite": "g",
+              "nom": "poudre de noisette"
+            },
+            {
+              "quantite": 390,
+              "unite": "g",
+              "nom": "blancs d'œufs"
+            },
+            {
+              "quantite": 140,
+              "unite": "g",
+              "nom": "farine T55"
+            },
+            {
+              "quantite": 325,
+              "unite": "g",
+              "nom": "beurre fondu"
+            },
+            {
+              "quantite": 5,
+              "unite": null,
+              "nom": "pincées de fleur de sel"
+            },
+            {
+              "quantite": 1,
+              "unite": null,
+              "nom": "gousse de vanille + arôme vanille"
+            }
+          ]
+        }
+      ],
+      "etapes": [
+        {
+          "numero": 1,
+          "titre": "Mélanger les ingrédients secs",
+          "description": "Dans le bol du batteur muni du fouet, verser le sucre glace, la poudre de noisette, la farine, la fleur de sel et les graines de vanille. Mélanger brièvement à vitesse lente pour homogénéiser.",
+          "type": "assemblage"
+        },
+        {
+          "numero": 2,
+          "titre": "Incorporer les blancs",
+          "description": "Ajouter les blancs d'œufs progressivement sur les ingrédients secs en fouettant à vitesse moyenne jusqu'à obtenir une pâte lisse et homogène.",
+          "type": "assemblage",
+          "conseil": "Les blancs sont incorporés liquides, pas montés en neige. C'est ce qui donne aux financiers leur texture dense et moelleuse caractéristique."
+        },
+        {
+          "numero": 3,
+          "titre": "Incorporer le beurre fondu",
+          "description": "Ajouter le beurre fondu en filet en continuant de fouetter doucement. La pâte doit être souple, brillante et homogène.",
+          "type": "assemblage",
+          "conseil": "Le beurre s'ajoute en dernier, une fois les blancs bien incorporés. S'assurer qu'il est fondu mais pas trop chaud pour ne pas cuire les blancs."
+        },
+        {
+          "numero": 4,
+          "titre": "Dresser",
+          "description": "Remplir les moules à financiers beurrés aux trois quarts à l'aide d'une poche à douille.",
+          "type": "dressage"
+        },
+        {
+          "numero": 5,
+          "titre": "Cuire à 170°C",
+          "description": "Enfourner dans un four préchauffé à 170°C pendant 12 minutes. Les financiers sont cuits quand les bords sont dorés et le centre légèrement bombé. Démouler tiède.",
+          "duree_min": 12,
+          "type": "cuisson",
+          "conseil": "Surveiller la coloration dès 10 minutes : chaque four est différent. Le dessous doit être doré, pas brun."
+        }
+      ],
+      "conseils": [
+        {
+          "titre": "Beurre fondu vs beurre noisette",
+          "texte": "La recette Conticini utilise du beurre simplement fondu, pas de beurre noisette — cela préserve la pureté aromatique de la poudre de noisette. Pour une version encore plus intense, on peut réaliser un beurre noisette (chauffer jusqu'à coloration ambrée et odeur de noisette, puis filtrer avant utilisation)."
+        },
+        {
+          "titre": "Conservation",
+          "texte": "Les financiers se conservent 3 à 4 jours dans une boîte hermétique à température ambiante. Ils gagnent en moelleux le lendemain de la cuisson."
+        },
+        {
+          "titre": "Variations",
+          "texte": "La poudre de noisette peut être remplacée partiellement ou totalement par de la poudre d'amande pour une version plus classique. On peut aussi ajouter des noisettes concassées torréfiées sur le dessus avant cuisson."
+        }
+      ],
+      "tags": [
+        "financier",
+        "noisette",
+        "biscuit",
+        "Conticini",
+        "sans repos",
+        "moelleux",
+        "blancs d'œufs"
+      ],
+      "saison_conseillee": ["Toute l'année"],
+      "statut": "publié",
+      "images": ["/images/hero-patissons.jpg"]
+    },
+    {
+      "id": 5,
+      "slug": "genoise-classique",
+      "titre": "Génoise classique",
+      "description": "La génoise est le biscuit de base de la pâtisserie française. Légère et aérée, elle repose entièrement sur le foisonnement des œufs avec le sucre, sans matière grasse ajoutée. Sa texture spongieuse en fait le support idéal pour les entremets, les bûches et les gâteaux à étages. Elle s'imbibe facilement de sirop et supporte tous types de crèmes.",
+      "categorie": "pates-biscuits",
+      "categorie_label": "Pâtes et biscuits",
+      "source": "recette de formation",
+      "difficulte": "Intermediaire",
+      "portions": 6,
+      "temps": {
+        "preparation_min": 20,
+        "cuisson_min": 18,
+        "repos_min": 0,
+        "total_min": 38,
+        "note_cuisson": "Four à 160°C, chaleur tournante."
+      },
+      "materiel": [
+        "Robot pâtissier avec fouet ou fouet électrique",
+        "Bain-marie",
+        "Moule rond de 20 cm",
+        "Maryse",
+        "Thermomètre"
+      ],
+      "ingredients": [
+        {
+          "groupe": "Génoise",
+          "items": [
+            {
+              "quantite": 120,
+              "unite": "g",
+              "nom": "farine tamisée"
+            },
+            {
+              "quantite": 120,
+              "unite": "g",
+              "nom": "sucre semoule"
+            },
+            {
+              "quantite": 200,
+              "unite": "g",
+              "nom": "œufs entiers (environ 4 œufs)"
+            }
+          ]
+        }
+      ],
+      "etapes": [
+        {
+          "numero": 1,
+          "titre": "Foisonner les œufs et le sucre",
+          "description": "Dans un cul-de-poule, fouetter les œufs entiers avec le sucre. Placer sur un bain-marie à feu doux et fouetter sans arrêt jusqu'à atteindre environ 40°C — le mélange doit être tiède au toucher. Retirer du bain-marie et continuer de fouetter au robot ou au batteur électrique jusqu'à complet refroidissement. L'appareil doit tripler de volume et former un ruban épais et stable.",
+          "type": "technique",
+          "conseil": "Le ruban est le signe que les œufs sont bien foisonnés : soulevez la pâte avec la maryse, elle doit retomber en formant un ruban continu qui ne se casse pas immédiatement. C'est ce foisonnement qui donnera la légèreté à la génoise."
+        },
+        {
+          "numero": 2,
+          "titre": "Incorporer la farine",
+          "description": "À 40°C (mélange encore légèrement tiède), incorporer la farine tamisée en trois fois à l'aide d'une maryse, en effectuant des mouvements circulaires du bas vers le haut pour ne pas faire retomber la masse.",
+          "type": "assemblage",
+          "conseil": "Ne jamais mélanger vigoureusement à cette étape : les bulles d'air incorporées pendant le foisonnement sont le seul agent levant de la génoise. Les casser, c'est obtenir un biscuit dense et plat."
+        },
+        {
+          "numero": 3,
+          "titre": "Dresser et cuire",
+          "description": "Verser immédiatement l'appareil dans le moule beurré et fariné. Enfourner dans un four préchauffé à 160°C pendant 18 minutes. La génoise est cuite lorsque les bords se décollent légèrement et que le centre reprend sa forme quand on appuie doucement dessus.",
+          "duree_min": 18,
+          "type": "cuisson",
+          "conseil": "Ne pas ouvrir le four avant 15 minutes sous peine de faire retomber la génoise. Démouler sur grille dès la sortie du four pour éviter que la condensation ne ramollisse les bords."
+        }
+      ],
+      "conseils": [
+        {
+          "titre": "L'importance du bain-marie",
+          "texte": "Le bain-marie sert à chauffer légèrement les œufs et le sucre pour amorcer le foisonnement. Des œufs à température ambiante (et non sortis du réfrigérateur) donneront un meilleur résultat."
+        },
+        {
+          "titre": "Utilisation en pâtisserie",
+          "texte": "La génoise seule est peu sucrée et peu grasse — elle est faite pour être garnie, imbibée et assemblée. Elle se conserve 24h bien emballée à température ambiante, ou se congèle très bien une fois froide."
+        }
+      ],
+      "tags": ["génoise", "biscuit", "base", "entremet", "bûche", "classique"],
+      "saison_conseillee": ["Toute l'année"],
+      "statut": "publié",
+      "images": ["/images/hero-patissons.jpg"]
+    },
+    {
+      "id": 6,
+      "slug": "biscuit-dacquoise",
+      "titre": "Biscuit Dacquoise",
+      "description": "La dacquoise est un biscuit meringué aux poudres de fruits secs, croustillant en surface et fondant à cœur. Originaire de Dax, elle constitue la base de nombreux entremets classiques comme le Paris-Brest ou le succès. Sa texture légère et son goût de noisette ou d'amande en font un biscuit polyvalent et très apprécié.",
+      "categorie": "pates-biscuits",
+      "categorie_label": "Pâtes et biscuits",
+      "source": "recette de formation",
+      "difficulte": "Intermediaire",
+      "portions": 8,
+      "temps": {
+        "preparation_min": 20,
+        "cuisson_min": 10,
+        "repos_min": 0,
+        "total_min": 30,
+        "note_cuisson": "Four à 180°C. Surveiller la coloration dès 8 minutes."
+      },
+      "materiel": [
+        "Robot pâtissier avec fouet",
+        "Poche à douille",
+        "Plaque de cuisson",
+        "Papier sulfurisé",
+        "Tamis"
+      ],
+      "ingredients": [
+        {
+          "groupe": "Dacquoise",
+          "items": [
+            {
+              "quantite": 90,
+              "unite": "g",
+              "nom": "poudre d'amande"
+            },
+            {
+              "quantite": 90,
+              "unite": "g",
+              "nom": "sucre glace"
+            },
+            {
+              "quantite": 110,
+              "unite": "g",
+              "nom": "blancs d'œufs"
+            },
+            {
+              "quantite": 25,
+              "unite": "g",
+              "nom": "sucre semoule"
+            }
+          ]
+        }
+      ],
+      "etapes": [
+        {
+          "numero": 1,
+          "titre": "Tamiser les poudres",
+          "description": "Tamiser ensemble la poudre d'amande et le sucre glace pour obtenir un mélange fin et homogène, appelé tant-pour-tant. Réserver.",
+          "type": "technique",
+          "conseil": "Le tamisage est essentiel pour éviter les grumeaux dans le biscuit. Si la poudre d'amande est trop humide ou grumeleuse, la passer au four à 150°C pendant 5 minutes avant de la tamiser."
+        },
+        {
+          "numero": 2,
+          "titre": "Monter les blancs en neige",
+          "description": "Fouetter les blancs à vitesse moyenne jusqu'à ce qu'ils moussent, puis ajouter le sucre semoule en trois fois en augmentant progressivement la vitesse. Les blancs doivent former un bec d'oiseau ferme mais pas trop sec.",
+          "type": "technique",
+          "conseil": "Le sucre semoule ajouté progressivement stabilise les blancs et leur donne une texture lisse et serrée. Des blancs trop vieux ou trop froids monteront moins bien."
+        },
+        {
+          "numero": 3,
+          "titre": "Incorporer les poudres",
+          "description": "Verser le tant-pour-tant en pluie sur les blancs montés. Mélanger délicatement à la maryse en soulevant la masse de bas en haut pour ne pas faire retomber les blancs.",
+          "type": "assemblage",
+          "conseil": "Ce geste s'appelle le macaronnage léger. L'appareil final doit être souple et légèrement retombant, mais pas liquide."
+        },
+        {
+          "numero": 4,
+          "titre": "Dresser et cuire",
+          "description": "Dresser à la poche à douille en spirale ou en bande selon l'utilisation (disque pour entremet, bande pour bûche). Saupoudrer deux fois de sucre glace à 5 minutes d'intervalle avant d'enfourner. Cuire à 180°C pendant 10 minutes.",
+          "duree_min": 10,
+          "type": "cuisson",
+          "conseil": "Le double saupoudrage de sucre glace forme une fine croûte craquante en surface, caractéristique de la dacquoise. Ne pas omettre cette étape."
+        }
+      ],
+      "conseils": [
+        {
+          "titre": "Variante noisette",
+          "texte": "Remplacer la poudre d'amande par de la poudre de noisette torréfiée pour une dacquoise encore plus parfumée. C'est la version classique du Paris-Brest."
+        },
+        {
+          "titre": "Conservation",
+          "texte": "La dacquoise se conserve 24h à température ambiante bien emballée, mais elle est meilleure le jour même. Elle se congèle très bien et peut être utilisée directement sortie du congélateur pour le montage d'un entremet."
+        }
+      ],
+      "tags": [
+        "dacquoise",
+        "biscuit",
+        "meringué",
+        "amande",
+        "noisette",
+        "entremet",
+        "base"
+      ],
+      "saison_conseillee": ["Toute l'année"],
+      "statut": "publié",
+      "images": ["/images/hero-patissons.jpg"]
+    },
+    {
+      "id": 7,
+      "slug": "pate-a-choux",
+      "titre": "Pâte à choux",
+      "description": "La pâte à choux est l'une des pâtes les plus emblématiques de la pâtisserie française. Elle est à la base des éclairs, choux à la crème, Paris-Brest, religieuses et croquembouches. Sa particularité : elle gonfle à la cuisson grâce à la vapeur d'eau emprisonnée dans la pâte, créant un creux intérieur parfait pour être garni. Maîtriser la pâte à choux, c'est ouvrir la porte à une infinité de créations.",
+      "categorie": "pates-biscuits",
+      "categorie_label": "Pâtes et biscuits",
+      "source": "recette de formation",
+      "difficulte": "Intermediaire",
+      "portions": 20,
+      "portions_unite": "petits choux",
+      "temps": {
+        "preparation_min": 20,
+        "cuisson_min": 25,
+        "repos_min": 0,
+        "total_min": 45,
+        "note_cuisson": "180°C — 15 min pour petits choux, 30 min pour gros choux. Ne jamais ouvrir le four pendant la cuisson."
+      },
+      "materiel": [
+        "Casserole",
+        "Spatule en bois",
+        "Robot pâtissier avec feuille (ou cuillère en bois)",
+        "Poche à douille lisse n°10 ou n°12",
+        "Plaque de cuisson graissée"
+      ],
+      "ingredients": [
+        {
+          "groupe": "Pâte à choux",
+          "items": [
+            {
+              "quantite": 125,
+              "unite": "g",
+              "nom": "lait entier"
+            },
+            {
+              "quantite": 125,
+              "unite": "g",
+              "nom": "eau"
+            },
+            {
+              "quantite": 5,
+              "unite": "g",
+              "nom": "sel fin"
+            },
+            {
+              "quantite": 25,
+              "unite": "g",
+              "nom": "cassonade ou sucre semoule"
+            },
+            {
+              "quantite": 110,
+              "unite": "g",
+              "nom": "beurre"
+            },
+            {
+              "quantite": 140,
+              "unite": "g",
+              "nom": "farine tamisée"
+            },
+            {
+              "quantite": 225,
+              "unite": "g",
+              "nom": "œufs entiers battus (taille S)"
+            }
+          ]
+        }
+      ],
+      "etapes": [
+        {
+          "numero": 1,
+          "titre": "Réaliser la panade",
+          "description": "Dans une casserole, porter à ébullition le lait, l'eau, le sel, le sucre et le beurre coupé en morceaux. Dès l'ébullition, retirer du feu et verser la farine en une seule fois. Mélanger vigoureusement à la spatule jusqu'à obtenir une boule de pâte homogène qui se détache des parois.",
+          "type": "technique",
+          "conseil": "Verser toute la farine d'un coup pour éviter les grumeaux. Il est important que le beurre soit complètement fondu avant l'ébullition — si la farine est ajoutée trop tôt, la pâte sera grasse et grumeleuse."
+        },
+        {
+          "numero": 2,
+          "titre": "Dessécher la panade",
+          "description": "Remettre la casserole sur feu moyen et mélanger sans arrêt pendant environ 2 minutes jusqu'à ce que la pâte se dessèche légèrement : une fine pellicule blanche doit apparaître sur le fond de la casserole.",
+          "duree_min": 2,
+          "type": "technique",
+          "conseil": "Cette étape est cruciale : elle évapore l'excès d'humidité et permet à la pâte d'absorber plus d'œufs, ce qui donnera des choux plus légers et plus développés à la cuisson."
+        },
+        {
+          "numero": 3,
+          "titre": "Incorporer les œufs",
+          "description": "Transvaser la panade dans le bol du robot muni de la feuille (ou continuer à la main). Laisser tiédir 2 minutes puis incorporer les œufs battus petit à petit, en attendant que chaque ajout soit bien absorbé avant d'en ajouter davantage.",
+          "type": "assemblage",
+          "conseil": "Ne pas ajouter tous les œufs d'un coup. La quantité exacte dépend de combien la panade a été desséchée. La pâte est à bonne consistance quand elle forme un V souple qui retombe lentement de la spatule, et qu'une trace faite avec le doigt se referme doucement."
+        },
+        {
+          "numero": 4,
+          "titre": "Dresser",
+          "description": "Dresser immédiatement sur plaque graissée à la poche à douille lisse : choux ronds pour les profiteroles, bâtons allongés pour les éclairs. Espacer suffisamment car ils vont doubler de volume.",
+          "type": "dressage",
+          "conseil": "La pâte à choux peut se conserver 2 jours au réfrigérateur dans une poche ou une boîte hermétique, ou se congeler crue. Dresser directement avant cuisson pour un meilleur développement."
+        },
+        {
+          "numero": 5,
+          "titre": "Cuire",
+          "description": "Enfourner dans un four préchauffé à 180°C. Compter 15 minutes pour les petits choux, 30 minutes pour les gros choux. Ne jamais ouvrir le four avant la fin de la cuisson.",
+          "duree_min": 15,
+          "type": "cuisson",
+          "conseil": "Ouvrir le four pendant la cuisson ferait retomber les choux immédiatement. Les choux sont cuits lorsqu'ils sont uniformément dorés — un chou pâle en surface sera mou et retombera en refroidissant."
+        }
+      ],
+      "conseils": [
+        {
+          "titre": "Le test de la pâte",
+          "texte": "Pour vérifier si la consistance est bonne sans thermomètre : tracer un sillon avec le doigt dans la pâte. Si les bords se referment lentement vers le centre, la pâte est prête. Si le sillon reste ouvert, il manque des œufs. Si la pâte s'affaisse, il y en a trop."
+        },
+        {
+          "titre": "Craquelin",
+          "texte": "Déposer un disque de craquelin sur chaque chou avant enfournement pour obtenir une surface régulière, croustillante et un développement homogène — technique professionnelle recommandée."
+        },
+        {
+          "titre": "Conservation",
+          "texte": "Les choux cuits vides se conservent 24h dans une boîte hermétique à température ambiante, ou se congèlent très bien. Les repasser 5 minutes à 160°C avant utilisation pour les recroustiller."
+        }
+      ],
+      "tags": [
+        "pâte à choux",
+        "éclair",
+        "chou",
+        "Paris-Brest",
+        "base",
+        "classique"
+      ],
+      "saison_conseillee": ["Toute l'année"],
+      "statut": "publié",
+      "images": ["/images/hero-patissons.jpg"]
+    },
+    {
+      "id": 8,
+      "slug": "craquelin",
+      "titre": "Craquelin",
+      "description": "Le craquelin est une fine pâte sablée déposée en disque sur les choux avant cuisson. Il apporte une surface croustillante, une coloration régulière et un développement homogène à la cuisson. Devenu incontournable en pâtisserie moderne, il transforme visuellement et gustativement un chou ordinaire en pièce soignée.",
+      "categorie": "pates-biscuits",
+      "categorie_label": "Pâtes et biscuits",
+      "source": "recette de formation",
+      "difficulte": "Facile",
+      "portions": 20,
+      "portions_unite": "disques de craquelin",
+      "temps": {
+        "preparation_min": 10,
+        "cuisson_min": 0,
+        "repos_min": 30,
+        "total_min": 40,
+        "note_repos": "Repos au congélateur 20-30 minutes pour faciliter le détaillage."
+      },
+      "materiel": [
+        "Robot pâtissier avec feuille ou corne",
+        "Papier sulfurisé",
+        "Rouleau à pâtisserie",
+        "Emporte-pièce rond (diamètre adapté au chou)"
+      ],
+      "ingredients": [
+        {
+          "groupe": "Craquelin nature",
+          "items": [
+            {
+              "quantite": 50,
+              "unite": "g",
+              "nom": "beurre mou (pommade)"
+            },
+            {
+              "quantite": 50,
+              "unite": "g",
+              "nom": "cassonade"
+            },
+            {
+              "quantite": 50,
+              "unite": "g",
+              "nom": "farine"
+            },
+            {
+              "quantite": 1,
+              "unite": null,
+              "nom": "pincée de sel"
+            }
+          ]
+        },
+        {
+          "groupe": "Craquelin cacao",
+          "items": [
+            {
+              "quantite": 40,
+              "unite": "g",
+              "nom": "beurre mou (pommade)"
+            },
+            {
+              "quantite": 50,
+              "unite": "g",
+              "nom": "cassonade"
+            },
+            {
+              "quantite": 55,
+              "unite": "g",
+              "nom": "farine T55"
+            },
+            {
+              "quantite": 50,
+              "unite": "g",
+              "nom": "cacao en poudre non sucré"
+            }
+          ]
+        }
+      ],
+      "etapes": [
+        {
+          "numero": 1,
+          "titre": "Mélanger les ingrédients",
+          "description": "Mélanger le beurre mou avec la cassonade jusqu'à obtenir une pâte homogène. Ajouter la farine (et le cacao pour la version chocolat) et mélanger jusqu'à formation d'une boule souple.",
+          "type": "assemblage",
+          "conseil": "Le beurre doit être vraiment mou (pommade) mais pas fondu. Un beurre trop froid donnera une pâte qui s'effrite, un beurre fondu donnera une pâte collante impossible à étaler."
+        },
+        {
+          "numero": 2,
+          "titre": "Étaler et congeler",
+          "description": "Étaler la pâte entre deux feuilles de papier sulfurisé sur une épaisseur de 2 mm environ. Placer au congélateur 20 à 30 minutes.",
+          "duree_min": 30,
+          "type": "repos_froid",
+          "conseil": "La congélation est l'astuce clé : la pâte froide se détaille proprement sans se déformer. À température ambiante, elle serait trop molle pour être manipulée."
+        },
+        {
+          "numero": 3,
+          "titre": "Détailler et disposer sur les choux",
+          "description": "Détailler des disques à l'emporte-pièce d'un diamètre légèrement supérieur à celui des choux dressés. Déposer un disque sur chaque chou juste avant d'enfourner.",
+          "type": "finition"
+        }
+      ],
+      "conseils": [
+        {
+          "titre": "Dosage des couleurs",
+          "texte": "Pour des choux au chocolat, utiliser le craquelin cacao qui s'accordera visuellement et gustativement. Pour des choux à la vanille ou au praliné, le craquelin nature convient parfaitement."
+        },
+        {
+          "titre": "Conservation",
+          "texte": "Le craquelin se conserve plusieurs semaines au congélateur entre deux feuilles de papier sulfurisé. Pratique de l'avoir toujours en réserve."
+        }
+      ],
+      "tags": ["craquelin", "pâte à choux", "chou", "croustillant", "base"],
+      "saison_conseillee": ["Toute l'année"],
+      "statut": "publié",
+      "images": ["/images/hero-patissons.jpg"]
+    },
+    {
+      "id": 9,
+      "slug": "sable-breton",
+      "titre": "Sablé Breton",
+      "description": "Le sablé breton est un biscuit emblématique de la Bretagne, riche en beurre et reconnaissable à sa texture friable, dorée et légèrement croustillante. Sa généreuse teneur en beurre et en poudre d'amande lui confère une saveur intense et gourmande. Il sert de base à de nombreux entremets modernes et se déguste aussi très bien nature avec un café ou un thé.",
+      "categorie": "pates-biscuits",
+      "categorie_label": "Pâtes et biscuits",
+      "source": "recette de formation",
+      "difficulte": "Facile",
+      "portions": 30,
+      "portions_unite": "sablés",
+      "temps": {
+        "preparation_min": 15,
+        "cuisson_min": 13,
+        "repos_min": 60,
+        "total_min": 88,
+        "note_cuisson": "180°C, 10 à 15 minutes selon l'épaisseur."
+      },
+      "materiel": [
+        "Robot pâtissier avec feuille",
+        "Rouleau à pâtisserie",
+        "Papier sulfurisé",
+        "Emporte-pièces ou cadre"
+      ],
+      "ingredients": [
+        {
+          "groupe": "Sablé breton",
+          "items": [
+            {
+              "quantite": 1000,
+              "unite": "g",
+              "nom": "beurre pommade"
+            },
+            {
+              "quantite": 480,
+              "unite": "g",
+              "nom": "sucre glace"
+            },
+            {
+              "quantite": 5,
+              "unite": "g",
+              "nom": "sel"
+            },
+            {
+              "quantite": 160,
+              "unite": "g",
+              "nom": "œufs entiers"
+            },
+            {
+              "quantite": 560,
+              "unite": "g",
+              "nom": "poudre d'amande"
+            },
+            {
+              "quantite": 1000,
+              "unite": "g",
+              "nom": "farine"
+            },
+            {
+              "quantite": 27,
+              "unite": "g",
+              "nom": "levure chimique"
+            }
+          ]
+        }
+      ],
+      "etapes": [
+        {
+          "numero": 1,
+          "titre": "Crémer le beurre et le sucre",
+          "description": "Dans le bol du robot muni de la feuille, travailler le beurre pommade avec le sucre glace et le sel jusqu'à obtenir un mélange crémeux, pâle et homogène.",
+          "type": "assemblage",
+          "conseil": "Le beurre doit absolument être à température ambiante (pommade). Un beurre trop froid ne se crémera pas correctement et donnera une pâte grumeleuse."
+        },
+        {
+          "numero": 2,
+          "titre": "Ajouter les œufs",
+          "description": "Incorporer les œufs battus progressivement, en attendant que chaque ajout soit bien absorbé.",
+          "type": "assemblage"
+        },
+        {
+          "numero": 3,
+          "titre": "Incorporer les poudres",
+          "description": "Ajouter la poudre d'amande, puis la farine et la levure chimique tamisées ensemble. Mélanger à la feuille jusqu'à obtenir une pâte homogène, sans trop travailler.",
+          "type": "assemblage",
+          "conseil": "Stopper le mélange dès que la farine est incorporée. Trop travailler la pâte développerait le gluten et rendrait le sablé dur au lieu de friable."
+        },
+        {
+          "numero": 4,
+          "titre": "Reposer et abaisser",
+          "description": "Mettre la pâte en boule, l'envelopper dans du film alimentaire et réfrigérer au moins 1 heure. Abaisser ensuite entre deux feuilles de papier sulfurisé sur 5 mm d'épaisseur. Détailler à l'emporte-pièce ou en rectangle.",
+          "duree_min": 60,
+          "type": "repos_froid"
+        },
+        {
+          "numero": 5,
+          "titre": "Cuire à 180°C",
+          "description": "Enfourner sur plaque recouverte de papier sulfurisé à 180°C pendant 10 à 15 minutes. Le sablé doit être doré uniformément.",
+          "duree_min": 13,
+          "type": "cuisson",
+          "conseil": "Surveiller la coloration : le sablé breton doit être bien doré pour développer tout son arôme beurré. Trop pâle, il sera mou et sans caractère."
+        }
+      ],
+      "conseils": [
+        {
+          "titre": "Utilisation en entremet",
+          "texte": "Pour une base d'entremet, cuire le sablé directement dans un cercle posé sur la plaque. Il sera ainsi parfaitement à la taille du moule et facilitera le montage."
+        },
+        {
+          "titre": "Conservation",
+          "texte": "La pâte crue se conserve 3 jours au réfrigérateur ou 1 mois au congélateur. Les sablés cuits se gardent 5 à 7 jours dans une boîte hermétique."
+        }
+      ],
+      "tags": [
+        "sablé",
+        "breton",
+        "biscuit",
+        "amande",
+        "base",
+        "entremet",
+        "beurre"
+      ],
+      "saison_conseillee": ["Toute l'année"],
+      "statut": "publié",
+      "images": ["/images/hero-patissons.jpg"]
+    },
+    {
+      "id": 10,
+      "slug": "cremeux-chocolat-noir",
+      "titre": "Crémeux chocolat noir",
+      "description": "Le crémeux chocolat est une préparation à mi-chemin entre la ganache et la crème anglaise. Réalisé sur une base de crème anglaise versée sur du chocolat noir, il offre une texture fondante, lisse et intense. Il s'utilise en insert d'entremet, en garnissage d'éclair ou de tarte, ou coulé directement dans des moules pour être servi comme dessert à l'assiette.",
+      "categorie": "cremes-curds-ganache",
+      "categorie_label": "Crèmes, curds et ganache",
+      "source": "recette de formation",
+      "difficulte": "Intermediaire",
+      "portions": 10,
+      "temps": {
+        "preparation_min": 20,
+        "cuisson_min": 10,
+        "repos_min": 240,
+        "total_min": 270,
+        "note_repos": "Minimum 4 heures au réfrigérateur pour la prise complète."
+      },
+      "materiel": [
+        "Casserole",
+        "Fouet",
+        "Thermomètre",
+        "Mixeur plongeant",
+        "Cul-de-poule"
+      ],
+      "ingredients": [
+        {
+          "groupe": "Crémeux chocolat",
+          "items": [
+            {
+              "quantite": 1050,
+              "unite": "g",
+              "nom": "lait entier"
+            },
+            {
+              "quantite": 1050,
+              "unite": "g",
+              "nom": "crème liquide entière"
+            },
+            {
+              "quantite": 400,
+              "unite": "g",
+              "nom": "jaunes d'œufs"
+            },
+            {
+              "quantite": 360,
+              "unite": "g",
+              "nom": "sucre semoule"
+            },
+            {
+              "quantite": 1300,
+              "unite": "g",
+              "nom": "chocolat noir (64-70%)"
+            }
+          ]
+        }
+      ],
+      "etapes": [
+        {
+          "numero": 1,
+          "titre": "Réaliser la crème anglaise",
+          "description": "Porter le lait et la crème à ébullition. Pendant ce temps, blanchir les jaunes avec le sucre en fouettant jusqu'à ce que le mélange soit pâle et légèrement mousseux. Verser le liquide chaud en filet sur les jaunes en fouettant, puis remettre sur feu doux. Cuire en remuant constamment à la maryse jusqu'à 82-84°C (la crème nappe le dos d'une cuillère et une trace tracée au doigt reste nette).",
+          "type": "technique",
+          "conseil": "Ne jamais dépasser 85°C sous peine de cuire les jaunes et d'obtenir une crème granuleuse. Si la crème est trop cuite, la passer immédiatement au mixeur plongeant puis au chinois pour tenter de la rattraper."
+        },
+        {
+          "numero": 2,
+          "titre": "Verser sur le chocolat et mixer",
+          "description": "Verser la crème anglaise chaude en trois fois sur le chocolat noir haché ou en pistoles, en mélangeant entre chaque ajout pour créer une émulsion. Mixer au mixeur plongeant pour obtenir une texture parfaitement lisse et brillante, sans bulles d'air.",
+          "type": "assemblage",
+          "conseil": "Maintenir la tête du mixeur immergée pour éviter d'incorporer de l'air, qui formerait des bulles disgracieuses en surface. Une bonne émulsion donne un crémeux lisse comme un miroir."
+        },
+        {
+          "numero": 3,
+          "titre": "Couler et réfrigérer",
+          "description": "Couler immédiatement dans les moules ou les cercles. Filmer au contact et réfrigérer minimum 4 heures.",
+          "duree_min": 240,
+          "type": "repos_froid"
+        }
+      ],
+      "conseils": [
+        {
+          "titre": "Choix du chocolat",
+          "texte": "Un chocolat à 64-70% de cacao donnera un crémeux intense mais équilibré. En dessous de 60%, le crémeux sera plus doux mais aussi plus sucré. Éviter les chocolats en pépites de supermarché qui contiennent souvent des additifs qui perturbent l'émulsion."
+        },
+        {
+          "titre": "Utilisation",
+          "texte": "Le crémeux peut être coulé en insert (congelé dans un moule plus petit avant d'être inséré dans un entremet), dressé à la poche en garnissage, ou servi tel quel avec une quenelle de crème fouettée."
+        }
+      ],
+      "tags": [
+        "crémeux",
+        "chocolat noir",
+        "crème anglaise",
+        "garniture",
+        "entremet"
+      ],
+      "saison_conseillee": ["Automne", "Hiver"],
+      "statut": "publié",
+      "images": ["/images/hero-patissons.jpg"]
+    },
+    {
+      "id": 11,
+      "slug": "cremeux-vanille",
+      "titre": "Crémeux vanille au chocolat blanc",
+      "description": "Ce crémeux vanille est réalisé sur une base de crème anglaise versée sur du chocolat blanc, qui assure la tenue sans gélatine. La vanille apporte une note chaude et florale, le chocolat blanc une douceur lactée et crémeuse. Il s'utilise en garnissage de tarte, en insert d'entremet, ou pour napper délicatement un gâteau. À glacer à 30°C pour une finition nette.",
+      "categorie": "cremes-curds-ganache",
+      "categorie_label": "Crèmes, curds et ganache",
+      "source": "recette de formation",
+      "difficulte": "Intermediaire",
+      "portions": 10,
+      "temps": {
+        "preparation_min": 20,
+        "cuisson_min": 10,
+        "repos_min": 240,
+        "total_min": 270
+      },
+      "materiel": ["Casserole", "Fouet", "Thermomètre", "Mixeur plongeant"],
+      "ingredients": [
+        {
+          "groupe": "Crémeux vanille",
+          "items": [
+            {
+              "quantite": 325,
+              "unite": "g",
+              "nom": "lait entier"
+            },
+            {
+              "quantite": 600,
+              "unite": "g",
+              "nom": "crème liquide entière"
+            },
+            {
+              "quantite": 150,
+              "unite": "g",
+              "nom": "jaunes d'œufs"
+            },
+            {
+              "quantite": 150,
+              "unite": "g",
+              "nom": "sucre semoule"
+            },
+            {
+              "quantite": 510,
+              "unite": "g",
+              "nom": "chocolat blanc"
+            },
+            {
+              "quantite": 6,
+              "unite": "g",
+              "nom": "gélatine (feuilles)"
+            },
+            {
+              "quantite": 1,
+              "unite": null,
+              "nom": "gousse de vanille"
+            }
+          ]
+        }
+      ],
+      "etapes": [
+        {
+          "numero": 1,
+          "titre": "Infuser la vanille",
+          "description": "Fendre la gousse de vanille et gratter les graines. Porter le lait et la crème à frémissement avec la gousse et les graines. Laisser infuser 10 minutes hors du feu à couvert.",
+          "duree_min": 10,
+          "type": "technique",
+          "conseil": "L'infusion à couvert permet de conserver les arômes volatils de la vanille. Plus l'infusion est longue, plus le parfum sera intense."
+        },
+        {
+          "numero": 2,
+          "titre": "Réaliser la crème anglaise",
+          "description": "Blanchir les jaunes avec le sucre. Retirer la gousse du lait vanillé, remettre à chauffer et verser en filet sur les jaunes. Cuire à 82°C en remuant constamment. Ajouter la gélatine préalablement réhydratée et essorée.",
+          "type": "technique",
+          "conseil": "La gélatine renforce la tenue du crémeux et lui permet de se démouler proprement. L'incorporer hors du feu dès que la crème anglaise atteint 82°C."
+        },
+        {
+          "numero": 3,
+          "titre": "Émulsionner avec le chocolat blanc",
+          "description": "Verser la crème anglaise chaude en trois fois sur le chocolat blanc haché. Mélanger entre chaque ajout, puis mixer au mixeur plongeant pour une texture parfaitement lisse.",
+          "type": "assemblage",
+          "conseil": "Le crémeux doit être glacé à 30°C pour être coulé ou utilisé en glaçage. Trop chaud, il sera trop liquide. Trop froid, il figera avant d'être utilisé."
+        },
+        {
+          "numero": 4,
+          "titre": "Couler et réfrigérer",
+          "description": "Couler dans les moules ou utiliser directement en glaçage à 30°C. Filmer au contact et réfrigérer minimum 4 heures.",
+          "duree_min": 240,
+          "type": "repos_froid"
+        }
+      ],
+      "conseils": [
+        {
+          "titre": "Qualité de la vanille",
+          "texte": "Utiliser de préférence de la vanille Bourbon de Madagascar pour son profil aromatique riche et sucré. La vanille Tahiti est plus florale et exotique. Éviter les arômes artificiels qui donnent un goût de synthèse."
+        },
+        {
+          "titre": "Glaçage à 30°C",
+          "texte": "La température de 30°C est celle à laquelle le crémeux est fluide mais commence à épaissir, ce qui permet un glaçage net qui se fige rapidement sur un entrement froid."
+        }
+      ],
+      "tags": ["crémeux", "vanille", "chocolat blanc", "garniture", "entremet"],
+      "saison_conseillee": ["Toute l'année"],
+      "statut": "publié",
+      "images": ["/images/hero-patissons.jpg"]
+    },
+    {
+      "id": 12,
+      "slug": "cremeux-banane-passion",
+      "titre": "Crémeux banane-passion",
+      "description": "Ce crémeux exotique associe la douceur sucrée de la banane à l'acidité vive du fruit de la passion et du citron vert. Réalisé comme un crémeux citron (base œufs-sucre-acidité), il est enrichi au beurre pour une texture onctueuse et fondante. Son profil aromatique tropical et fruité en fait un garnissage idéal pour les tartes, verrines et entremets estivaux.",
+      "categorie": "cremes-curds-ganache",
+      "categorie_label": "Crèmes, curds et ganache",
+      "source": "recette de formation",
+      "difficulte": "Intermediaire",
+      "portions": 8,
+      "temps": {
+        "preparation_min": 20,
+        "cuisson_min": 15,
+        "repos_min": 240,
+        "total_min": 275
+      },
+      "materiel": [
+        "Casserole",
+        "Fouet",
+        "Thermomètre",
+        "Mixeur plongeant",
+        "Chinois"
+      ],
+      "ingredients": [
+        {
+          "groupe": "Crémeux banane-passion",
+          "items": [
+            {
+              "quantite": 160,
+              "unite": "g",
+              "nom": "purée de fruit de la passion"
+            },
+            {
+              "quantite": 40,
+              "unite": "g",
+              "nom": "jus de citron vert + zestes"
+            },
+            {
+              "quantite": 65,
+              "unite": "g",
+              "nom": "banane écrasée bien mûre"
+            },
+            {
+              "quantite": 100,
+              "unite": "g",
+              "nom": "œufs entiers"
+            },
+            {
+              "quantite": 80,
+              "unite": "g",
+              "nom": "jaunes d'œufs"
+            },
+            {
+              "quantite": 80,
+              "unite": "g",
+              "nom": "sucre semoule"
+            },
+            {
+              "quantite": 4,
+              "unite": null,
+              "nom": "feuilles de gélatine (réhydratées)"
+            },
+            {
+              "quantite": 160,
+              "unite": "g",
+              "nom": "beurre froid coupé en dés"
+            }
+          ]
+        }
+      ],
+      "etapes": [
+        {
+          "numero": 1,
+          "titre": "Chauffer les fruits",
+          "description": "Dans une casserole, réunir la purée de passion, le jus et les zestes de citron vert, la banane écrasée, les œufs entiers, les jaunes et le sucre. Chauffer à feu moyen en fouettant constamment jusqu'à 82-85°C.",
+          "type": "technique",
+          "conseil": "La banane doit être bien mûre (peau tachetée) pour un maximum de parfum et de douceur. Elle s'écrasera complètement à la cuisson et ne sera plus visible dans la texture finale."
+        },
+        {
+          "numero": 2,
+          "titre": "Ajouter la gélatine et chinoiser",
+          "description": "Hors du feu, ajouter la gélatine réhydratée et essorée. Passer au chinois pour retirer les zestes et obtenir une texture parfaitement lisse.",
+          "type": "technique"
+        },
+        {
+          "numero": 3,
+          "titre": "Incorporer le beurre",
+          "description": "Laisser tiédir à 45-50°C puis incorporer le beurre froid en dés en mixant au mixeur plongeant pour créer une émulsion lisse et brillante.",
+          "type": "assemblage",
+          "conseil": "Incorporer le beurre froid à cette température crée une émulsion stable qui donne au crémeux sa texture fondante et onctueuse. Trop chaud, le beurre fondrait sans s'émulsionner."
+        },
+        {
+          "numero": 4,
+          "titre": "Couler et réfrigérer",
+          "description": "Couler dans les moules ou les fonds de tarte. Filmer au contact et réfrigérer minimum 4 heures.",
+          "duree_min": 240,
+          "type": "repos_froid"
+        }
+      ],
+      "conseils": [
+        {
+          "titre": "Équilibre acidité-douceur",
+          "texte": "Le fruit de la passion est très acide — la banane et le sucre compensent. Si le crémeux semble trop acide à la dégustation froide, augmenter légèrement la quantité de banane ou de sucre."
+        },
+        {
+          "titre": "Variante sans banane",
+          "texte": "Pour un crémeux 100% passion, supprimer la banane et ajouter 25g de purée de passion supplémentaire. Penser à ajuster le sucre car le résultat sera plus acide."
+        }
+      ],
+      "tags": [
+        "crémeux",
+        "passion",
+        "banane",
+        "citron vert",
+        "exotique",
+        "garniture"
+      ],
+      "saison_conseillee": ["Printemps", "Été"],
+      "statut": "publié",
+      "images": ["/images/hero-patissons.jpg"]
+    },
+    {
+      "id": 13,
+      "slug": "lemon-curd",
+      "titre": "Lemon curd (citron vert)",
+      "description": "Le lemon curd est une crème de citron d'origine anglaise, très répandue en pâtisserie française moderne. Acidulé, frais et brillant, il est réalisé comme une crème anglaise avec du jus de citron à la place du lait. L'incorporation du beurre froid au mixeur lui donne une texture soyeuse et fondante. Parfait en garnissage de tarte, en insert d'entremet ou à la cuillère.",
+      "categorie": "cremes-curds-ganache",
+      "categorie_label": "Crèmes, curds et ganache",
+      "source": "recette de formation",
+      "difficulte": "Facile",
+      "portions": 8,
+      "temps": {
+        "preparation_min": 15,
+        "cuisson_min": 10,
+        "repos_min": 120,
+        "total_min": 145
+      },
+      "materiel": [
+        "Casserole",
+        "Fouet",
+        "Thermomètre",
+        "Mixeur plongeant",
+        "Chinois"
+      ],
+      "ingredients": [
+        {
+          "groupe": "Lemon curd",
+          "items": [
+            {
+              "quantite": 300,
+              "unite": "g",
+              "nom": "jus de citron vert (fraîchement pressé)"
+            },
+            {
+              "quantite": 300,
+              "unite": "g",
+              "nom": "œufs entiers"
+            },
+            {
+              "quantite": 300,
+              "unite": "g",
+              "nom": "sucre semoule"
+            },
+            {
+              "quantite": 4,
+              "unite": null,
+              "nom": "feuilles de gélatine"
+            },
+            {
+              "quantite": 500,
+              "unite": "g",
+              "nom": "beurre froid coupé en dés"
+            }
+          ]
+        }
+      ],
+      "etapes": [
+        {
+          "numero": 1,
+          "titre": "Cuire la crème de citron",
+          "description": "Dans une casserole, mélanger le jus de citron vert, les œufs et le sucre. Chauffer à feu moyen en fouettant constamment jusqu'à 80°C — la crème doit épaissir légèrement et napper une cuillère.",
+          "type": "technique",
+          "conseil": "Ne pas cesser de remuer sinon les œufs coagulent sur les parois et font des grumeaux. Si la crème dépasse 85°C, elle risque de trancher — la passer immédiatement au mixeur plongeant pour la rattraper."
+        },
+        {
+          "numero": 2,
+          "titre": "Ajouter la gélatine",
+          "description": "Hors du feu, ajouter la gélatine réhydratée et essorée. Mélanger jusqu'à dissolution complète.",
+          "type": "technique"
+        },
+        {
+          "numero": 3,
+          "titre": "Incorporer le beurre à 50°C",
+          "description": "Laisser refroidir la crème à 50°C puis incorporer le beurre froid en dés progressivement en mixant au mixeur plongeant. Maintenir la tête du mixeur immergée pour une émulsion lisse et sans bulles.",
+          "type": "assemblage",
+          "conseil": "Le beurre incorporé à 50°C s'émulsionne parfaitement et donne au lemon curd sa texture crémeuse et fondante. En dessous de 45°C, le beurre ne s'incorpore plus correctement."
+        },
+        {
+          "numero": 4,
+          "titre": "Couler et réfrigérer",
+          "description": "Couler dans les fonds de tarte précuits ou dans des moules. Filmer au contact et réfrigérer minimum 2 heures.",
+          "duree_min": 120,
+          "type": "repos_froid"
+        }
+      ],
+      "conseils": [
+        {
+          "titre": "Citron jaune ou vert",
+          "texte": "Le citron vert apporte une acidité plus vive et un profil aromatique plus floral que le citron jaune. Les deux conviennent parfaitement. Pour un lemon curd plus intense, ajouter les zestes d'un citron dans la préparation avant cuisson."
+        },
+        {
+          "titre": "Conservation",
+          "texte": "Le lemon curd se conserve 5 jours au réfrigérateur filmé au contact. Il se congèle très bien — idéal pour en avoir toujours en réserve."
+        }
+      ],
+      "tags": [
+        "lemon curd",
+        "citron",
+        "citron vert",
+        "crème",
+        "garniture",
+        "tarte"
+      ],
+      "saison_conseillee": ["Printemps", "Été"],
+      "statut": "publié",
+      "images": ["/images/hero-patissons.jpg"]
+    },
+    {
+      "id": 14,
+      "slug": "meringue-italienne",
+      "titre": "Meringue italienne",
+      "description": "La meringue italienne est la meringue des professionnels. Contrairement à la meringue française (blancs + sucre cru), elle est réalisée en versant un sirop de sucre cuit à 118°C sur des blancs en cours de montage. Résultat : une meringue stable, brillante, soyeuse et qui se tient parfaitement sans cuisson. Elle est incontournable dans les tartes au citron, les vacherins, les mousses et les macarons.",
+      "categorie": "cremes-curds-ganache",
+      "categorie_label": "Crèmes, curds et ganache",
+      "source": "recette de formation",
+      "difficulte": "Intermediaire",
+      "portions": 8,
+      "temps": {
+        "preparation_min": 20,
+        "cuisson_min": 0,
+        "repos_min": 0,
+        "total_min": 20
+      },
+      "materiel": [
+        "Robot pâtissier avec fouet",
+        "Casserole",
+        "Thermomètre",
+        "Poche à douille"
+      ],
+      "ingredients": [
+        {
+          "groupe": "Meringue italienne",
+          "items": [
+            {
+              "quantite": 150,
+              "unite": "g",
+              "nom": "sucre semoule"
+            },
+            {
+              "quantite": 50,
+              "unite": "g",
+              "nom": "eau"
+            },
+            {
+              "quantite": 55,
+              "unite": "g",
+              "nom": "blancs d'œufs"
+            }
+          ]
+        }
+      ],
+      "etapes": [
+        {
+          "numero": 1,
+          "titre": "Cuire le sirop",
+          "description": "Dans une casserole, mélanger le sucre et l'eau. Chauffer à feu moyen sans remuer jusqu'à 118°C.",
+          "type": "technique",
+          "conseil": "Ne pas remuer le sirop pendant la cuisson pour éviter la cristallisation. Surveiller la température avec un thermomètre. Quand le sirop atteint 110°C, commencer à monter les blancs."
+        },
+        {
+          "numero": 2,
+          "titre": "Monter les blancs",
+          "description": "Quand le sirop atteint 110°C, commencer à fouetter les blancs à vitesse moyenne jusqu'à ce qu'ils soient mousseux.",
+          "type": "technique"
+        },
+        {
+          "numero": 3,
+          "titre": "Verser le sirop sur les blancs",
+          "description": "Quand le sirop atteint 118°C, le verser en filet très fin sur les blancs en continuant de fouetter à vitesse maximale. Verser le long de la paroi du bol pour éviter les projections de sucre sur les parois.",
+          "type": "assemblage",
+          "conseil": "Verser le sirop très lentement en filet fin sur les blancs en marche. Un ajout trop rapide ferait des filaments de sucre cuit dans la meringue."
+        },
+        {
+          "numero": 4,
+          "titre": "Fouetter jusqu'à refroidissement",
+          "description": "Continuer de fouetter à vitesse maximale jusqu'à complet refroidissement de la meringue (environ 5-8 minutes). Elle doit être ferme, brillante et former un bec d'oiseau.",
+          "duree_min": 8,
+          "type": "technique",
+          "conseil": "La meringue italienne est prête quand le bol est revenu à température ambiante au toucher. Elle peut se pocher, se brûler au chalumeau et s'incorporer dans des mousses ou crèmes."
+        }
+      ],
+      "conseils": [
+        {
+          "titre": "Synchronisation sirop/blancs",
+          "texte": "C'est le point technique le plus délicat : il faut que les blancs soient bien mousseux au moment où le sirop atteint 118°C. Commencer à monter les blancs quand le sirop est à 110°C est la règle générale."
+        },
+        {
+          "titre": "Utilisation",
+          "texte": "La meringue italienne ne se cuit pas. Elle est utilisée crue pour garnir, ou brûlée légèrement au chalumeau pour la coloration. Si elle est incorporée dans une mousse ou une crème, le faire délicatement à la maryse dès que la meringue est refroidie."
+        }
+      ],
+      "tags": [
+        "meringue",
+        "italienne",
+        "sirop",
+        "tarte citron",
+        "base",
+        "classique"
+      ],
+      "saison_conseillee": ["Toute l'année"],
+      "statut": "publié",
+      "images": ["/images/hero-patissons.jpg"]
+    },
+    {
+      "id": 15,
+      "slug": "meringue-francaise-noisette",
+      "titre": "Meringue française à la noisette",
+      "description": "Cette meringue française à la noisette est une variation parfumée et gourmande de la meringue classique. Elle repose sur le procédé de la meringue française : blancs montés avec du sucre semoule, puis sucre glace et poudre de noisette incorporés délicatement. Légère, croustillante à l'extérieur et fondante à l'intérieur, elle se cuit à basse température. Idéale en base de gâteaux, en coque de vacherin ou en petits fours secs.",
+      "categorie": "pates-biscuits",
+      "categorie_label": "Pâtes et biscuits",
+      "source": "recette de formation",
+      "difficulte": "Facile",
+      "portions": 20,
+      "portions_unite": "pièces (selon dressage)",
+      "temps": {
+        "preparation_min": 20,
+        "cuisson_min": 110,
+        "repos_min": 0,
+        "total_min": 130,
+        "note_cuisson": "20 minutes à 130°C puis 1h30 à 100°C. La longue cuisson à basse température déshydrate la meringue sans la colorer."
+      },
+      "materiel": [
+        "Robot pâtissier avec fouet",
+        "Poche à douille",
+        "Plaque de cuisson",
+        "Papier sulfurisé",
+        "Tamis"
+      ],
+      "ingredients": [
+        {
+          "groupe": "Meringue française noisette",
+          "items": [
+            {
+              "quantite": 125,
+              "unite": "g",
+              "nom": "blancs d'œufs"
+            },
+            {
+              "quantite": 125,
+              "unite": "g",
+              "nom": "sucre semoule"
+            },
+            {
+              "quantite": 65,
+              "unite": "g",
+              "nom": "sucre glace tamisé"
+            },
+            {
+              "quantite": 65,
+              "unite": "g",
+              "nom": "poudre de noisette tamisée"
+            }
+          ]
+        }
+      ],
+      "etapes": [
+        {
+          "numero": 1,
+          "titre": "Préparer les poudres",
+          "description": "Tamiser ensemble le sucre glace et la poudre de noisette. Réserver.",
+          "type": "technique",
+          "conseil": "Torréfier légèrement la poudre de noisette au four (150°C, 8 minutes) avant de l'utiliser intensifie considérablement le parfum de noisette dans la meringue finale."
+        },
+        {
+          "numero": 2,
+          "titre": "Monter les blancs en neige",
+          "description": "Fouetter les blancs à vitesse moyenne jusqu'à ce qu'ils soient mousseux. Ajouter le sucre semoule en trois fois en augmentant progressivement la vitesse. Continuer à fouetter jusqu'à obtenir une meringue ferme, brillante et qui forme un bec d'oiseau.",
+          "type": "technique",
+          "conseil": "Les blancs doivent être à température ambiante pour mieux monter. Veiller à ce que le bol et le fouet soient parfaitement propres et sans trace de gras, qui empêcherait les blancs de monter."
+        },
+        {
+          "numero": 3,
+          "titre": "Incorporer les poudres",
+          "description": "Verser le mélange sucre glace-poudre de noisette en pluie sur les blancs montés. Incorporer délicatement à la maryse par des mouvements circulaires souples, en soulevant la masse de bas en haut. Stopper dès que les poudres sont incorporées.",
+          "type": "assemblage",
+          "conseil": "Ne pas trop mélanger à cette étape : on cherche à conserver le maximum d'air dans les blancs. L'appareil peut légèrement retomber, c'est normal."
+        },
+        {
+          "numero": 4,
+          "titre": "Dresser sur papier sulfurisé",
+          "description": "Dresser à la poche à douille sur plaque recouverte de papier sulfurisé, sur une épaisseur d'environ 1 cm. Dresser en disques, en bandes ou en petites coques selon l'utilisation.",
+          "type": "dressage"
+        },
+        {
+          "numero": 5,
+          "titre": "Cuire à basse température",
+          "description": "Enfourner à 130°C pendant 20 minutes, puis baisser la température à 100°C et poursuivre la cuisson 1h30.",
+          "duree_min": 110,
+          "type": "cuisson",
+          "conseil": "La cuisson en deux temps permet d'abord de fixer la meringue, puis de la déshydrater lentement sans coloration. Une meringue bien cuite est sèche à cœur, légère et se détache facilement du papier."
+        }
+      ],
+      "conseils": [
+        {
+          "titre": "Différence avec la dacquoise",
+          "texte": "La dacquoise utilise du tant-pour-tant (amande + sucre glace) incorporé à des blancs montés serrés. La meringue noisette ici part des blancs montés avec le sucre semoule, puis reçoit les poudres. La texture finale est plus légère et plus croustillante."
+        },
+        {
+          "titre": "Conservation",
+          "texte": "La meringue est très sensible à l'humidité — la conserver dans une boîte hermétique à température ambiante. Elle se garde 3 à 5 jours sans perdre son croustillant si le temps est sec."
+        }
+      ],
+      "tags": [
+        "meringue",
+        "noisette",
+        "française",
+        "biscuit",
+        "vacherin",
+        "base"
+      ],
+      "saison_conseillee": ["Toute l'année"],
+      "statut": "publié",
+      "images": ["/images/hero-patissons.jpg"]
+    },
+    {
+      "id": 16,
+      "slug": "praline-noix-de-pecan",
+      "titre": "Praliné noix de pécan",
+      "description": "Le praliné maison est une pâte obtenue en mixant des fruits secs enrobés de caramel. Ici, les noix de pécan apportent une saveur plus ronde, plus beurrée et plus douce que les noisettes classiques. Ce praliné pécan est utilisé en fourrage dans les croustillants, en base de diplomate ou simplement à la cuillère. Le sel en relève les arômes et équilibre la douceur du caramel.",
+      "categorie": "cremes-curds-ganache",
+      "categorie_label": "Crèmes, curds et ganache",
+      "source": "recette de formation",
+      "difficulte": "Facile",
+      "portions": 1,
+      "portions_unite": "pot de praliné (~400g)",
+      "temps": {
+        "preparation_min": 5,
+        "cuisson_min": 15,
+        "repos_min": 30,
+        "total_min": 50,
+        "note_repos": "Attendre le complet refroidissement avant de mixer, environ 30 minutes."
+      },
+      "materiel": [
+        "Casserole",
+        "Thermomètre",
+        "Silpat ou papier sulfurisé",
+        "Mixeur ou robot coupe"
+      ],
+      "ingredients": [
+        {
+          "groupe": "Praliné pécan",
+          "items": [
+            {
+              "quantite": 200,
+              "unite": "g",
+              "nom": "sucre semoule"
+            },
+            {
+              "quantite": 200,
+              "unite": "g",
+              "nom": "noix de pécan"
+            },
+            {
+              "quantite": 30,
+              "unite": "g",
+              "nom": "eau"
+            },
+            {
+              "quantite": 2,
+              "unite": null,
+              "nom": "pincées de sel"
+            }
+          ]
+        }
+      ],
+      "etapes": [
+        {
+          "numero": 1,
+          "titre": "Torréfier les noix de pécan",
+          "description": "Étaler les noix de pécan sur une plaque et les torréfier au four à 160°C pendant 10 minutes. Réserver.",
+          "duree_min": 10,
+          "type": "cuisson",
+          "conseil": "La torréfaction développe les arômes des noix et les rend plus croustillantes. Ne pas sauter cette étape — elle fait toute la différence dans le praliné final."
+        },
+        {
+          "numero": 2,
+          "titre": "Cuire le caramel à 121°C",
+          "description": "Dans une casserole, mélanger le sucre et l'eau. Porter à ébullition sans remuer jusqu'à 121°C.",
+          "type": "technique",
+          "conseil": "La température de 121°C correspond au stade du grand boulé (le sucre forme une boule souple quand on en verse quelques gouttes dans l'eau froide). C'est à cette température que les noix seront jetées pour être parfaitement enrobées."
+        },
+        {
+          "numero": 3,
+          "titre": "Enrober les noix",
+          "description": "Jeter les noix de pécan dans le caramel à 121°C d'un coup. Mélanger vigoureusement à la spatule — le sucre va d'abord sabler (devenir blanc et granuleux) avant de recristalliser en caramel autour des noix.",
+          "type": "assemblage",
+          "conseil": "Le sablage est normal et attendu : le choc thermique des noix froides fait recristalliser le sucre. Continuer à remuer sans arrêt sur feu moyen jusqu'à ce que le sucre refonde et caramélise en enrobant chaque noix."
+        },
+        {
+          "numero": 4,
+          "titre": "Débarrasser et laisser refroidir",
+          "description": "Verser le mélange sur un Silpat ou une feuille de papier sulfurisé légèrement huilée. Étaler en couche fine et laisser refroidir complètement à température ambiante.",
+          "duree_min": 30,
+          "type": "repos_froid",
+          "conseil": "Ne pas toucher ni déplacer le praliné pendant le refroidissement — le caramel est extrêmement brûlant."
+        },
+        {
+          "numero": 5,
+          "titre": "Mixer",
+          "description": "Casser la masse de noix caramélisées en morceaux et les placer dans le bol du mixeur. Mixer par impulsions d'abord, puis en continu jusqu'à obtenir une pâte lisse et fluide. Ajouter les pincées de sel en milieu de mixage.",
+          "type": "technique",
+          "conseil": "Le mixage libère progressivement les huiles naturelles des noix, ce qui transforme la poudre en pâte fluide. Cela peut prendre 5 à 10 minutes selon la puissance du mixeur. Patience — ne pas ajouter d'huile."
+        }
+      ],
+      "conseils": [
+        {
+          "titre": "Conservation",
+          "texte": "Le praliné se conserve dans un pot hermétique à température ambiante pendant 1 mois, ou au réfrigérateur jusqu'à 3 mois. Une légère séparation huile/pâte est normale — il suffit de remélanger."
+        },
+        {
+          "titre": "Variantes",
+          "texte": "La même recette fonctionne avec des noisettes, des amandes, des pistaches ou un mélange. Pour un praliné 50/50 classique, utiliser moitié noisettes moitié amandes."
+        }
+      ],
+      "tags": ["praliné", "noix de pécan", "caramel", "garniture", "base"],
+      "saison_conseillee": ["Toute l'année"],
+      "statut": "publié",
+      "images": ["/images/praline-pecan.jpg"]
+    },
+    {
+      "id": 17,
+      "slug": "glacage-miroir-chocolat",
+      "titre": "Glaçage miroir chocolat",
+      "description": "Le glaçage miroir est la finition emblématique des entremets modernes. Sa surface parfaitement lisse et brillante reflète comme un miroir. Réalisé à base de sucre cuit, de cacao, de crème et de gélatine, il se coule sur l'entremet congelé à 30°C pour une prise nette et instantanée. Un glaçage miroir réussi transforme visuellement n'importe quel entremet en pièce de pâtisserie professionnelle.",
+      "categorie": "cremes-curds-ganache",
+      "categorie_label": "Crèmes, curds et ganache",
+      "source": "recette de formation",
+      "difficulte": "Intermediaire",
+      "portions": 1,
+      "portions_unite": "glaçage pour 1 entremet de 20 cm",
+      "temps": {
+        "preparation_min": 20,
+        "cuisson_min": 10,
+        "repos_min": 0,
+        "total_min": 30,
+        "note_cuisson": "À utiliser à 30°C. Peut se préparer la veille et se réchauffer au bain-marie."
+      },
+      "materiel": [
+        "Casserole",
+        "Thermomètre",
+        "Mixeur plongeant",
+        "Grille de glaçage",
+        "Chinois"
+      ],
+      "ingredients": [
+        {
+          "groupe": "Glaçage miroir",
+          "items": [
+            {
+              "quantite": 75,
+              "unite": "g",
+              "nom": "eau"
+            },
+            {
+              "quantite": 210,
+              "unite": "g",
+              "nom": "sucre semoule"
+            },
+            {
+              "quantite": 70,
+              "unite": "g",
+              "nom": "cacao en poudre non sucré tamisé"
+            },
+            {
+              "quantite": 145,
+              "unite": "g",
+              "nom": "crème liquide tiédie"
+            },
+            {
+              "quantite": 8,
+              "unite": "g",
+              "nom": "gélatine (feuilles réhydratées)"
+            }
+          ]
+        }
+      ],
+      "etapes": [
+        {
+          "numero": 1,
+          "titre": "Cuire le sirop",
+          "description": "Dans une casserole, porter l'eau et le sucre à 103°C.",
+          "type": "technique",
+          "conseil": "La température de 103°C est précise : en dessous, le glaçage sera trop fluide et glissera de l'entremet. Au-dessus, il sera trop épais et donnera une couche épaisse peu appétissante."
+        },
+        {
+          "numero": 2,
+          "titre": "Ajouter le cacao et la crème",
+          "description": "Hors du feu, ajouter le cacao tamisé en mélangeant au fouet. Incorporer ensuite la crème tiédie et la gélatine réhydratée et essorée.",
+          "type": "assemblage",
+          "conseil": "Tamiser le cacao est indispensable pour éviter les grumeaux dans le glaçage. La crème doit être tiédie (pas froide) pour ne pas faire chuter brutalement la température du sirop."
+        },
+        {
+          "numero": 3,
+          "titre": "Mixer sans bulles",
+          "description": "Mixer au mixeur plongeant en maintenant la tête bien immergée pour éviter d'incorporer de l'air. Passer au chinois.",
+          "type": "technique",
+          "conseil": "Les bulles d'air dans le glaçage sont l'ennemi numéro un du résultat miroir. Si des bulles apparaissent, laisser reposer le glaçage sans le toucher jusqu'à ce qu'elles remontent et disparaissent."
+        },
+        {
+          "numero": 4,
+          "titre": "Glacer à 30°C",
+          "description": "Laisser refroidir le glaçage à 30°C. Poser l'entremet congelé sur une grille et verser le glaçage en une seule fois du centre vers les bords en laissant couler naturellement.",
+          "type": "finition",
+          "conseil": "L'entremet doit être sorti du congélateur au dernier moment. Le choc thermique entre l'entremet à -18°C et le glaçage à 30°C assure une prise instantanée et une surface parfaitement lisse. Ne jamais glacer un entremet simplement réfrigéré."
+        }
+      ],
+      "conseils": [
+        {
+          "titre": "Préparation à l'avance",
+          "texte": "Le glaçage miroir se prépare très bien la veille. Le filmer au contact et le réfrigérer. Le réchauffer doucement au bain-marie ou au micro-ondes par impulsions en remuant entre chaque, jusqu'à 30°C."
+        },
+        {
+          "titre": "Récupérer le surplus",
+          "texte": "Le glaçage qui coule peut être récupéré, filtré et réutilisé. Il supporte 2 à 3 cycles de chauffe-refroidissement sans perdre ses qualités."
+        }
+      ],
+      "tags": [
+        "glaçage",
+        "miroir",
+        "chocolat",
+        "finition",
+        "entremet",
+        "professionnel"
+      ],
+      "saison_conseillee": ["Toute l'année"],
+      "statut": "publié",
+      "images": ["/images/hero-patissons.jpg"]
+    },
+    {
+      "id": 18,
+      "slug": "glacage-rocher",
+      "titre": "Glaçage rocher chocolat lait",
+      "description": "Le glaçage rocher est une enrobage au chocolat parsemé d'amandes hachées torréfiées, qui forme en figeant une texture irrégulière et craquante rappelant la surface d'un rocher. Il apporte une belle finition gourmande et rustique aux bûches, entremets glacés et bâtonnets. L'huile de pépins de raisin maintient le glaçage souple et facile à couper même congelé.",
+      "categorie": "cremes-curds-ganache",
+      "categorie_label": "Crèmes, curds et ganache",
+      "source": "recette de formation",
+      "difficulte": "Facile",
+      "portions": 1,
+      "portions_unite": "glaçage pour 1 bûche ou 1 entremet",
+      "temps": {
+        "preparation_min": 15,
+        "cuisson_min": 10,
+        "repos_min": 0,
+        "total_min": 25,
+        "note_cuisson": "Torréfaction des amandes : 10 min à 170°C. Utiliser à 35°C."
+      },
+      "materiel": [
+        "Casserole ou cul-de-poule",
+        "Thermomètre",
+        "Plaque de cuisson pour les amandes"
+      ],
+      "ingredients": [
+        {
+          "groupe": "Glaçage rocher",
+          "items": [
+            {
+              "quantite": 562.5,
+              "unite": "g",
+              "nom": "chocolat au lait"
+            },
+            {
+              "quantite": 125,
+              "unite": "g",
+              "nom": "amandes hachées (torréfiées à 170°C)"
+            },
+            {
+              "quantite": 125,
+              "unite": "g",
+              "nom": "huile de pépins de raisin"
+            }
+          ]
+        }
+      ],
+      "etapes": [
+        {
+          "numero": 1,
+          "titre": "Torréfier les amandes",
+          "description": "Étaler les amandes hachées sur une plaque et les torréfier à 170°C pendant 10 minutes jusqu'à coloration dorée. Laisser refroidir.",
+          "duree_min": 10,
+          "type": "cuisson",
+          "conseil": "Les amandes doivent être bien dorées et dégager un arôme de noisette grillée. Des amandes trop pâles seront sans saveur, des amandes trop foncées seront amères."
+        },
+        {
+          "numero": 2,
+          "titre": "Fondre le chocolat et assembler",
+          "description": "Faire fondre le chocolat au lait au bain-marie ou au micro-ondes. Ajouter l'huile de pépins de raisin et les amandes torréfiées refroidies. Bien mélanger.",
+          "type": "assemblage",
+          "conseil": "L'huile de pépins de raisin est neutre en goût et maintient le glaçage souple même congelé, ce qui permet de couper l'entremet proprement sans que le rocher éclate."
+        },
+        {
+          "numero": 3,
+          "titre": "Napper à 35°C",
+          "description": "Utiliser à 35°C en versant sur l'entremet congelé posé sur grille, ou en trempant directement les pièces.",
+          "type": "finition",
+          "conseil": "À 35°C, le glaçage est fluide et s'écoule bien tout en figeant rapidement sur l'entremet froid. Trop chaud, il sera trop fluide et ne formera pas de relief. Trop froid, il sera épais et difficile à travailler."
+        }
+      ],
+      "conseils": [
+        {
+          "titre": "Chocolat noir",
+          "texte": "La recette fonctionne aussi avec du chocolat noir pour un rocher plus intense. Réduire légèrement la quantité d'huile (100g au lieu de 125g) car le chocolat noir est naturellement plus fluide."
+        },
+        {
+          "titre": "Conservation",
+          "texte": "Le glaçage rocher se conserve très bien au réfrigérateur dans un pot hermétique jusqu'à 1 mois. Réchauffer doucement avant utilisation."
+        }
+      ],
+      "tags": [
+        "glaçage",
+        "rocher",
+        "chocolat lait",
+        "amandes",
+        "finition",
+        "bûche"
+      ],
+      "saison_conseillee": ["Automne", "Hiver"],
+      "statut": "publié",
+      "images": ["/images/hero-patissons.jpg"]
+    },
+    {
+      "id": 19,
+      "slug": "pavlova",
+      "titre": "Pavlova",
+      "description": "La pavlova est un dessert d'origine australienne ou néo-zélandaise, créé en hommage à la ballerine russe Anna Pavlova. C'est une grande meringue française au cœur fondant et moelleux, garnie de crème montée et de fruits frais. Le secret de son intérieur tendre : l'ajout de vinaigre blanc et l'arrêt de la cuisson avant séchage complet. Un dessert spectaculaire qui impressionne autant par sa beauté que par sa légèreté.",
+      "categorie": "patisseries-individuelles",
+      "categorie_label": "Pâtisseries individuelles",
+      "source": "recette de formation",
+      "difficulte": "Facile",
+      "portions": 8,
+      "temps": {
+        "preparation_min": 20,
+        "cuisson_min": 120,
+        "repos_min": 0,
+        "total_min": 140,
+        "note_cuisson": "Préchauffer à 150°C, cuire 2h à 110°C. Laisser refroidir four éteint."
+      },
+      "materiel": [
+        "Robot pâtissier avec fouet",
+        "Poche à douille ou spatule",
+        "Plaque de cuisson",
+        "Papier sulfurisé"
+      ],
+      "ingredients": [
+        {
+          "groupe": "Meringue Pavlova",
+          "items": [
+            {
+              "quantite": 16,
+              "unite": null,
+              "nom": "blancs d'œufs (environ 480g)"
+            },
+            {
+              "quantite": 1000,
+              "unite": "g",
+              "nom": "sucre semoule"
+            },
+            {
+              "quantite": 4,
+              "unite": null,
+              "nom": "cuillères à soupe de vinaigre blanc"
+            },
+            {
+              "quantite": 1,
+              "unite": null,
+              "nom": "pincée de sel"
+            }
+          ]
+        }
+      ],
+      "etapes": [
+        {
+          "numero": 1,
+          "titre": "Monter les blancs",
+          "description": "Fouetter les blancs avec la pincée de sel à vitesse moyenne jusqu'à ce qu'ils soient mousseux. Ajouter le sucre en pluie progressive tout en augmentant la vitesse. Continuer à fouetter jusqu'à obtenir une meringue très ferme et brillante.",
+          "type": "technique",
+          "conseil": "Pour une pavlova, la meringue doit être vraiment très ferme — plus que pour une meringue classique. Le sucre ajouté progressivement en grande quantité stabilise fortement les blancs."
+        },
+        {
+          "numero": 2,
+          "titre": "Ajouter le vinaigre",
+          "description": "À vitesse lente, incorporer les cuillères à soupe de vinaigre blanc. Mélanger brièvement.",
+          "type": "assemblage",
+          "conseil": "Le vinaigre blanc est le secret du cœur fondant de la pavlova. Il réagit avec les protéines des blancs d'œufs pendant la cuisson et maintient l'intérieur moelleux et légèrement collant, comme un guimauve. Sans lui, la meringue serait sèche à cœur."
+        },
+        {
+          "numero": 3,
+          "titre": "Dresser",
+          "description": "Préchauffer le four à 150°C. Dresser la meringue sur papier sulfurisé en disque épais (environ 20-22 cm de diamètre), en creusant légèrement le centre avec le dos d'une cuillère pour accueillir la garniture.",
+          "type": "dressage"
+        },
+        {
+          "numero": 4,
+          "titre": "Cuire à basse température",
+          "description": "Enfourner et baisser immédiatement à 110°C. Cuire 2 heures. Éteindre le four et laisser refroidir à l'intérieur sans ouvrir la porte.",
+          "duree_min": 120,
+          "type": "cuisson",
+          "conseil": "Le refroidissement four éteint est important : les chocs thermiques brutaux craquellent la meringue de façon excessive. Des craquelures légères sont normales et font partie du charme de la pavlova."
+        }
+      ],
+      "conseils": [
+        {
+          "titre": "Garniture",
+          "texte": "Garnir la pavlova au dernier moment avec de la chantilly, de la crème montée mascarpone et des fruits frais (fraises, framboises, fruits de la passion, mangue...). Une fois garnie, la meringue se ramollit rapidement — servir dans l'heure."
+        },
+        {
+          "titre": "Conservation",
+          "texte": "La meringue non garnie se conserve 2 jours dans une boîte hermétique à température ambiante. Éviter absolument le réfrigérateur avant garniture — l'humidité ramollirait la meringue."
+        }
+      ],
+      "tags": [
+        "pavlova",
+        "meringue",
+        "fruits",
+        "crème",
+        "spectaculaire",
+        "sans farine"
+      ],
+      "saison_conseillee": ["Printemps", "Été"],
+      "statut": "publié",
+      "images": ["/images/pavlova.jpg"]
+    },
+    {
+      "id": 20,
+      "slug": "pain-epices-moelleux",
+      "titre": "Pain d'épices moelleux",
+      "description": "Ce pain d'épices généreux et moelleux est une recette de formation pensée pour la production en quantité. Riche en miel, en cassonade et en beurre, il développe à la cuisson des arômes de caramel, d'épices chaudes et de miel qui envahissent toute la cuisine. Sa texture est dense mais fondante, et il se bonifie avec le temps — meilleur après 24 heures de repos.",
+      "categorie": "pates-biscuits",
+      "categorie_label": "Pâtes et biscuits",
+      "source": "recette de formation",
+      "difficulte": "Facile",
+      "portions": 4,
+      "portions_unite": "moules à cake",
+      "temps": {
+        "preparation_min": 20,
+        "cuisson_min": 75,
+        "repos_min": 0,
+        "total_min": 95,
+        "note_cuisson": "150°C, 1h à 1h30 selon la taille du moule."
+      },
+      "materiel": [
+        "Robot pâtissier avec fouet",
+        "Moules à cake",
+        "Casserole",
+        "Tamis"
+      ],
+      "ingredients": [
+        {
+          "groupe": "Pain d'épices",
+          "items": [
+            {
+              "quantite": 1000,
+              "unite": "g",
+              "nom": "farine"
+            },
+            {
+              "quantite": 1000,
+              "unite": "g",
+              "nom": "cassonade"
+            },
+            {
+              "quantite": 675,
+              "unite": "g",
+              "nom": "miel"
+            },
+            {
+              "quantite": 900,
+              "unite": "g",
+              "nom": "œufs entiers"
+            },
+            {
+              "quantite": 280,
+              "unite": "g",
+              "nom": "jaunes d'œufs"
+            },
+            {
+              "quantite": 1000,
+              "unite": "g",
+              "nom": "beurre fondu"
+            },
+            {
+              "quantite": 22.5,
+              "unite": "g",
+              "nom": "levure chimique"
+            },
+            {
+              "quantite": 25,
+              "unite": "g",
+              "nom": "mélange 4 épices"
+            }
+          ]
+        }
+      ],
+      "etapes": [
+        {
+          "numero": 1,
+          "titre": "Blanchir les œufs et la cassonade",
+          "description": "Dans le bol du robot muni du fouet, blanchir les œufs entiers, les jaunes et la cassonade jusqu'à ce que le mélange soit pâle et légèrement mousseux.",
+          "type": "assemblage",
+          "conseil": "Le blanchiment incorpore de l'air et donne de la légèreté à la texture finale, malgré la densité des ingrédients de ce pain d'épices."
+        },
+        {
+          "numero": 2,
+          "titre": "Ajouter les poudres",
+          "description": "Tamiser ensemble la farine, la levure chimique et le mélange 4 épices. Incorporer en trois fois au mélange œufs-cassonade en mélangeant doucement.",
+          "type": "assemblage"
+        },
+        {
+          "numero": 3,
+          "titre": "Ajouter le beurre fondu et le miel",
+          "description": "Incorporer le beurre fondu (chaud mais pas bouillant) et le miel. Mélanger jusqu'à obtenir une pâte homogène et lisse.",
+          "type": "assemblage",
+          "conseil": "Si le miel est cristallisé, le chauffer quelques secondes au micro-ondes pour le liquéfier avant incorporation."
+        },
+        {
+          "numero": 4,
+          "titre": "Cuire dans les moules",
+          "description": "Verser l'appareil dans des moules à cake beurrés et farinés. Cuire à 150°C pendant 1h à 1h30 selon la taille du moule. Vérifier la cuisson avec un couteau — la lame doit ressortir propre.",
+          "duree_min": 75,
+          "type": "cuisson",
+          "conseil": "La cuisson à basse température (150°C) est intentionnelle : elle permet une cuisson douce et homogène qui évite que le dessus brûle avant que le cœur soit cuit. Ne pas céder à la tentation d'augmenter la température."
+        }
+      ],
+      "conseils": [
+        {
+          "titre": "Mélange 4 épices",
+          "texte": "Le 4 épices traditionnel contient cannelle, gingembre, clou de girofle et muscade. On peut également ajouter de la badiane (anis étoilé) ou ajuster les proportions selon ses goûts."
+        },
+        {
+          "titre": "Il se bonifie avec le temps",
+          "texte": "Le pain d'épices est bien meilleur 24 à 48h après la cuisson. Les arômes se développent et la texture devient encore plus fondante. L'emballer dans du film alimentaire dès le refroidissement pour conserver le moelleux."
+        }
+      ],
+      "tags": [
+        "pain d'épices",
+        "miel",
+        "épices",
+        "moelleux",
+        "hiver",
+        "noël",
+        "beurre"
+      ],
+      "saison_conseillee": ["Automne", "Hiver"],
+      "statut": "publié",
+      "images": ["/images/hero-patissons.jpg"]
+    },
+    {
+      "id": 21,
+      "slug": "tuile-amandes",
+      "titre": "Tuile aux amandes",
+      "description": "La tuile aux amandes est un petit biscuit fin et croustillant, courbé comme une tuile de toit. Légère et délicate, elle se compose d'amandes effilées liées par un appareil sucré au beurre. Elle accompagne parfaitement les crèmes glacées, les mousses et les entremets, et apporte une touche de croustillant élégante à l'assiette. Sa fabrication demande de la rapidité : dès la sortie du four, elle doit être mise en forme immédiatement.",
+      "categorie": "pates-biscuits",
+      "categorie_label": "Pâtes et biscuits",
+      "source": "recette de formation",
+      "difficulte": "Intermediaire",
+      "portions": 30,
+      "portions_unite": "tuiles",
+      "temps": {
+        "preparation_min": 15,
+        "cuisson_min": 10,
+        "repos_min": 0,
+        "total_min": 25
+      },
+      "materiel": [
+        "Bol",
+        "Fouet",
+        "Plaque de cuisson",
+        "Papier sulfurisé ou Silpat",
+        "Rouleau à pâtisserie ou bouteille (pour courber)"
+      ],
+      "ingredients": [
+        {
+          "groupe": "Tuile aux amandes",
+          "items": [
+            {
+              "quantite": 50,
+              "unite": "g",
+              "nom": "farine tamisée"
+            },
+            {
+              "quantite": 410,
+              "unite": "g",
+              "nom": "sucre semoule"
+            },
+            {
+              "quantite": 85,
+              "unite": "g",
+              "nom": "beurre fondu"
+            },
+            {
+              "quantite": 400,
+              "unite": "g",
+              "nom": "amandes effilées"
+            },
+            {
+              "quantite": 200,
+              "unite": "g",
+              "nom": "blancs d'œufs"
+            },
+            {
+              "quantite": 1,
+              "unite": null,
+              "nom": "arôme vanille (quantité suffisante)"
+            }
+          ]
+        }
+      ],
+      "etapes": [
+        {
+          "numero": 1,
+          "titre": "Préparer l'appareil",
+          "description": "Mélanger la farine et le sucre. Ajouter les blancs d'œufs liquides (non montés) et mélanger. Incorporer le beurre fondu et l'arôme vanille. Ajouter les amandes effilées et bien les enrober.",
+          "type": "assemblage",
+          "conseil": "Les blancs sont utilisés liquides, pas montés en neige. Ils servent de liant, pas d'agent levant. La pâte doit être fluide et enrober parfaitement les amandes."
+        },
+        {
+          "numero": 2,
+          "titre": "Dresser en petits tas",
+          "description": "Déposer de petites cuillerées d'appareil sur plaque Silpat ou papier sulfurisé, bien espacées. Les aplatir finement avec le dos d'une cuillère humide — les tuiles doivent être très minces.",
+          "type": "dressage",
+          "conseil": "Plus la tuile est fine, plus elle sera croustillante. Une tuile trop épaisse restera molle au centre même après refroidissement."
+        },
+        {
+          "numero": 3,
+          "titre": "Cuire à 160°C",
+          "description": "Cuire à 160°C pendant environ 10 minutes jusqu'à coloration dorée et homogène.",
+          "duree_min": 10,
+          "type": "cuisson",
+          "conseil": "Surveiller attentivement la cuisson — les tuiles passent du doré au brûlé en quelques secondes. La coloration doit être uniforme sur toute la surface."
+        },
+        {
+          "numero": 4,
+          "titre": "Mettre en forme immédiatement",
+          "description": "Dès la sortie du four, décoller rapidement les tuiles et les poser sur un rouleau à pâtisserie ou une bouteille pour leur donner leur forme courbée caractéristique. Elles durcissent en quelques secondes.",
+          "type": "finition",
+          "conseil": "Travailler très vite : les tuiles sont souples à chaud mais durcissent dès qu'elles refroidissent. Si elles durcissent trop vite, les repasser quelques secondes au four pour les assouplir."
+        }
+      ],
+      "conseils": [
+        {
+          "titre": "Conservation",
+          "texte": "Les tuiles sont extrêmement sensibles à l'humidité. Les conserver dans une boîte hermétique avec du papier absorbant à température ambiante. Elles perdent leur croustillant rapidement en atmosphère humide."
+        },
+        {
+          "titre": "Déclinaisons",
+          "texte": "La même recette fonctionne avec des pistaches effilées, des noisettes hachées ou du sésame pour des déclinaisons tout aussi élégantes."
+        }
+      ],
+      "tags": [
+        "tuile",
+        "amandes",
+        "croustillant",
+        "décor",
+        "biscuit",
+        "dégustation"
+      ],
+      "saison_conseillee": ["Toute l'année"],
+      "statut": "publié",
+      "images": ["/images/tuile-amandes.jpg"]
+    },
+    {
+      "id": 22,
+      "slug": "caramel-beurre-sale",
+      "titre": "Caramel beurre salé",
+      "description": "Le caramel beurre salé est l'un des grands classiques de la confiserie française, emblématique de la Bretagne. Il se réalise en cuisant le sucre à sec avec glucose jusqu'à obtenir un caramel ambré, puis en ajoutant la crème chaude et le beurre. Le sel vient équilibrer la douceur du caramel et révéler sa complexité aromatique. Il s'utilise en garniture, en nappage, en sauce ou en insert d'entremet.",
+      "categorie": "cremes-curds-ganache",
+      "categorie_label": "Crèmes, curds et ganache",
+      "source": "recette de formation",
+      "difficulte": "Intermediaire",
+      "portions": 1,
+      "portions_unite": "pot de caramel (~800g)",
+      "temps": {
+        "preparation_min": 10,
+        "cuisson_min": 15,
+        "repos_min": 30,
+        "total_min": 55
+      },
+      "materiel": [
+        "Casserole à fond épais",
+        "Thermomètre",
+        "Fouet",
+        "Pot hermétique"
+      ],
+      "ingredients": [
+        {
+          "groupe": "Caramel beurre salé",
+          "items": [
+            {
+              "quantite": 800,
+              "unite": "g",
+              "nom": "sucre semoule"
+            },
+            {
+              "quantite": 1,
+              "unite": null,
+              "nom": "cuillère à soupe de glucose"
+            },
+            {
+              "quantite": 1000,
+              "unite": "g",
+              "nom": "crème liquide entière"
+            },
+            {
+              "quantite": 400,
+              "unite": "g",
+              "nom": "beurre demi-sel"
+            },
+            {
+              "quantite": 1,
+              "unite": null,
+              "nom": "bonne pincée de fleur de sel"
+            }
+          ]
+        }
+      ],
+      "etapes": [
+        {
+          "numero": 1,
+          "titre": "Réaliser le caramel à sec",
+          "description": "Dans une casserole à fond épais, chauffer le sucre et le glucose sans eau à feu moyen. Ne pas remuer — laisser le sucre fondre progressivement sur les bords puis vers le centre. Cuire jusqu'à obtenir un caramel ambré (180-185°C).",
+          "type": "technique",
+          "conseil": "Le glucose prévient la cristallisation du caramel. Si vous n'en avez pas, quelques gouttes de jus de citron dans le sucre feront l'affaire. Surveiller la couleur : un caramel trop pâle manquera de saveur, trop foncé sera amer."
+        },
+        {
+          "numero": 2,
+          "titre": "Décuire avec la crème chaude",
+          "description": "Chauffer la crème séparément jusqu'à ébullition. Hors du feu, verser la crème chaude en filet sur le caramel en remuant vigoureusement au fouet. Attention aux projections — le mélange va bouillonner violemment.",
+          "type": "assemblage",
+          "conseil": "La crème doit impérativement être chaude. Une crème froide provoquerait des projections encore plus violentes et un choc thermique qui ferait figer le caramel en masse dure."
+        },
+        {
+          "numero": 3,
+          "titre": "Ajouter le beurre et faire chauffer",
+          "description": "Remettre sur feu doux, ajouter le beurre demi-sel et la fleur de sel. Remuer jusqu'à incorporation complète. Chauffer la crème caramel pour atteindre la consistance souhaitée.",
+          "type": "assemblage",
+          "conseil": "Pour un caramel coulant : stopper tôt. Pour un caramel épais de type confiture : poursuivre la cuisson en remuant jusqu'à épaississement. La texture s'évalue à froid — le caramel s'épaissit toujours en refroidissant."
+        }
+      ],
+      "conseils": [
+        {
+          "titre": "Température de cuisson",
+          "texte": "Un caramel cuit à 180°C aura une couleur ambrée intense et un léger goût amer agréable. Sous 170°C, il sera trop doux et manquera de complexité. Un thermomètre est fortement conseillé pour les débutants."
+        },
+        {
+          "titre": "Conservation",
+          "texte": "Le caramel se conserve au réfrigérateur dans un pot hermétique jusqu'à 3 semaines. Le réchauffer doucement au bain-marie ou au micro-ondes avant utilisation."
+        }
+      ],
+      "tags": [
+        "caramel",
+        "beurre salé",
+        "bretagne",
+        "garniture",
+        "sauce",
+        "classique"
+      ],
+      "saison_conseillee": ["Toute l'année"],
+      "statut": "publié",
+      "images": ["/images/hero-patissons.jpg"]
+    },
+    {
+      "id": 23,
+      "slug": "crumble-cacao",
+      "titre": "Crumble cacao",
+      "description": "Le crumble cacao est un streusel chocolaté qui apporte une touche croustillante et intense à de nombreux desserts. Avec ses proportions égales de beurre, sucre et poudre d'amande, plus la farine et le cacao, il offre une texture sableuse et friable et un goût prononcé de chocolat. Il s'utilise saupoudré sur une tarte, un entremet ou une verrine, mais aussi comme couche croustillante dans une bûche ou un gâteau.",
+      "categorie": "pates-biscuits",
+      "categorie_label": "Pâtes et biscuits",
+      "source": "recette de formation",
+      "difficulte": "Facile",
+      "portions": 1,
+      "portions_unite": "plaque de crumble",
+      "temps": {
+        "preparation_min": 10,
+        "cuisson_min": 15,
+        "repos_min": 60,
+        "total_min": 85,
+        "note_repos": "Laisser sécher 1h avant cuisson pour un crumble plus friable."
+      },
+      "materiel": [
+        "Robot pâtissier avec feuille ou corne",
+        "Plaque de cuisson",
+        "Papier sulfurisé"
+      ],
+      "ingredients": [
+        {
+          "groupe": "Crumble cacao",
+          "items": [
+            {
+              "quantite": 250,
+              "unite": "g",
+              "nom": "beurre pommade"
+            },
+            {
+              "quantite": 250,
+              "unite": "g",
+              "nom": "sucre semoule"
+            },
+            {
+              "quantite": 250,
+              "unite": "g",
+              "nom": "poudre d'amande"
+            },
+            {
+              "quantite": 120,
+              "unite": "g",
+              "nom": "farine"
+            },
+            {
+              "quantite": 120,
+              "unite": "g",
+              "nom": "cacao en poudre non sucré"
+            },
+            {
+              "quantite": 5,
+              "unite": "g",
+              "nom": "sel"
+            }
+          ]
+        }
+      ],
+      "etapes": [
+        {
+          "numero": 1,
+          "titre": "Mélanger les ingrédients",
+          "description": "Mélanger tous les ingrédients ensemble à la feuille du robot ou à la main jusqu'à obtenir une pâte sableuse qui s'émiette en petits grumeaux.",
+          "type": "assemblage",
+          "conseil": "S'arrêter dès que la pâte est homogène et s'émiette. Trop travailler le crumble le rendrait compact et difficile à émietter sur la plaque."
+        },
+        {
+          "numero": 2,
+          "titre": "Laisser sécher 1 heure",
+          "description": "Étaler le crumble sur une plaque recouverte de papier sulfurisé en l'émiettant en petits morceaux irréguliers. Laisser sécher à l'air libre 1 heure avant cuisson.",
+          "duree_min": 60,
+          "type": "repos_froid",
+          "conseil": "Le séchage à l'air libre permet aux grumeaux de se raffermir et de garder leur forme à la cuisson. Sans ce repos, le crumble fondrait et formerait une plaque compacte."
+        },
+        {
+          "numero": 3,
+          "titre": "Cuire à 150°C",
+          "description": "Enfourner à 150°C pendant 15 minutes. Le crumble doit être sec au toucher et légèrement croustillant.",
+          "duree_min": 15,
+          "type": "cuisson",
+          "conseil": "La cuisson à basse température (150°C) permet de cuire le crumble sans le brûler, malgré la présence de cacao qui colore rapidement. Ne pas hésiter à vérifier souvent."
+        }
+      ],
+      "conseils": [
+        {
+          "titre": "Utilisation",
+          "texte": "Le crumble cacao s'utilise comme décor saupoudré, en couche croustillante dans un montage ou mixé finement pour une poudre de décor intense. Il peut aussi être incorporé dans une base de tarte pour un fond sablé chocolaté."
+        },
+        {
+          "titre": "Conservation",
+          "texte": "Se conserve 1 semaine dans une boîte hermétique à température ambiante, ou 1 mois au congélateur."
+        }
+      ],
+      "tags": [
+        "crumble",
+        "cacao",
+        "chocolat",
+        "croustillant",
+        "décor",
+        "streusel"
+      ],
+      "saison_conseillee": ["Toute l'année"],
+      "statut": "publié",
+      "images": ["/images/hero-patissons.jpg"]
+    },
+    {
+      "id": 24,
+      "slug": "baba-caipi",
+      "titre": "Baba caïpi — citron vert, vanille & cachaça",
+      "description": "Le baba caïpi est une revisite tropicale et festive du grand classique français qu'est le baba au rhum. La pâte à baba — légère, aérée et beurrée — est imbibée d'un sirop chaud parfumé au citron vert, à la vanille et à la cachaça (alcool brésilien issu de la canne à sucre), en clin d'œil à la caïpirinha. Il est accompagné d'un lemon curd de citron vert onctueux qui apporte de la fraîcheur et de l'acidité. Un dessert généreux, parfumé et original, à la fois technique et accessible.",
+      "categorie": "patisseries-individuelles",
+      "categorie_label": "Pâtisseries individuelles",
+      "source": "recette de formation",
+      "difficulte": "Intermediaire",
+      "portions": 16,
+      "portions_unite": "petits babas",
+      "temps": {
+        "preparation_min": 60,
+        "cuisson_min": 20,
+        "repos_min": 90,
+        "total_min": 170,
+        "note_repos": "Temps de pousse de la pâte + refroidissement du sirop inclus."
+      },
+      "materiel": [
+        "Robot pâtissier avec crochet",
+        "Moules à babas",
+        "Poche à douille",
+        "Casserole",
+        "Thermomètre",
+        "Mixeur plongeant",
+        "Chinois"
+      ],
+      "ingredients": [
+        {
+          "groupe": "Pâte à baba",
+          "items": [
+            {
+              "quantite": 1100,
+              "unite": "g",
+              "nom": "farine T55"
+            },
+            {
+              "quantite": 500,
+              "unite": "g",
+              "nom": "beurre pommade"
+            },
+            {
+              "quantite": 35,
+              "unite": "g",
+              "nom": "levure fraîche de boulanger"
+            },
+            {
+              "quantite": 250,
+              "unite": "g",
+              "nom": "sucre semoule"
+            },
+            {
+              "quantite": 10,
+              "unite": "g",
+              "nom": "sel"
+            },
+            {
+              "quantite": 500,
+              "unite": "g",
+              "nom": "œufs entiers (environ 10 œufs)"
+            },
+            {
+              "quantite": 350,
+              "unite": "g",
+              "nom": "lait entier"
+            }
+          ]
+        },
+        {
+          "groupe": "Sirop citron vert vanille cachaça",
+          "items": [
+            {
+              "quantite": 2000,
+              "unite": "g",
+              "nom": "eau"
+            },
+            {
+              "quantite": 600,
+              "unite": "g",
+              "nom": "sucre semoule"
+            },
+            {
+              "quantite": 1,
+              "unite": null,
+              "nom": "citron vert (zeste + jus)"
+            },
+            {
+              "quantite": 300,
+              "unite": "g",
+              "nom": "cachaça"
+            },
+            {
+              "quantite": 1,
+              "unite": null,
+              "nom": "gousse de vanille"
+            }
+          ]
+        },
+        {
+          "groupe": "Lemon curd citron vert",
+          "items": [
+            {
+              "quantite": 300,
+              "unite": "g",
+              "nom": "jus de citron vert"
+            },
+            {
+              "quantite": 300,
+              "unite": "g",
+              "nom": "œufs entiers"
+            },
+            {
+              "quantite": 300,
+              "unite": "g",
+              "nom": "sucre semoule"
+            },
+            {
+              "quantite": 4,
+              "unite": null,
+              "nom": "feuilles de gélatine"
+            },
+            {
+              "quantite": 500,
+              "unite": "g",
+              "nom": "beurre froid coupé en dés"
+            }
+          ]
+        }
+      ],
+      "etapes": [
+        {
+          "numero": 1,
+          "titre": "Réaliser la pâte à baba",
+          "description": "Dans le bol du robot muni du crochet, mélanger la farine, la levure émiettée, le sucre et le sel. Ajouter les œufs battus avec le lait progressivement. Pétrir à vitesse moyenne jusqu'à ce que la pâte soit lisse et se décolle des parois. Incorporer le beurre pommade en morceaux petit à petit, en continuant de pétrir jusqu'à obtenir une pâte lisse, brillante et élastique.",
+          "type": "pétrissage",
+          "conseil": "Ne jamais mettre la levure en contact direct avec le sel — le sel tue la levure et compromet la pousse. Les incorporer de chaque côté du bol ou tamponner la levure avec la farine avant d'ajouter le sel."
+        },
+        {
+          "numero": 2,
+          "titre": "Pointer la pâte",
+          "description": "Couvrir le bol d'un film alimentaire et laisser pointer (première pousse) à température ambiante (environ 25°C) jusqu'à ce que la pâte double de volume, soit environ 45 à 60 minutes.",
+          "duree_min": 60,
+          "type": "repos_froid",
+          "conseil": "La première pousse développe les arômes. Si votre cuisine est froide, placer le bol dans le four éteint avec un bol d'eau chaude pour créer une étuve artisanale."
+        },
+        {
+          "numero": 3,
+          "titre": "Rompre et dresser",
+          "description": "Rompre la pâte à la main (chasser le gaz) puis remplir les moules à babas beurrés à mi-hauteur à l'aide d'une poche à douille. Laisser pousser à nouveau jusqu'à ce que la pâte dépasse légèrement le bord du moule.",
+          "type": "dressage",
+          "conseil": "Ne remplir les moules qu'à mi-hauteur : la pâte va lever et dépasser du moule pendant la deuxième pousse, puis se développer encore à la cuisson."
+        },
+        {
+          "numero": 4,
+          "titre": "Cuire à 180°C",
+          "description": "Enfourner dans un four préchauffé à 180°C pendant 20 minutes. Les babas sont cuits lorsqu'ils sont dorés et que la lame d'un couteau ressort propre.",
+          "duree_min": 20,
+          "type": "cuisson",
+          "conseil": "Démouler les babas dès la sortie du four et les laisser refroidir complètement sur grille. Un baba chaud absorbera moins bien le sirop."
+        },
+        {
+          "numero": 5,
+          "titre": "Préparer le sirop cachaça",
+          "description": "Porter à ébullition l'eau, le sucre, les zestes et le jus de citron vert et la gousse de vanille fendue. Laisser infuser 15 minutes hors du feu. Ajouter la cachaça hors du feu (pour ne pas faire évaporer l'alcool). Le sirop doit être utilisé tiède (entre 60 et 70°C) pour imbiber les babas.",
+          "type": "technique",
+          "conseil": "La cachaça s'ajoute toujours hors du feu : l'alcool est volatil et s'évapore rapidement à la chaleur. Goûter le sirop avant d'imbiber — il doit être bien parfumé et légèrement sucré."
+        },
+        {
+          "numero": 6,
+          "titre": "Imbiber les babas",
+          "description": "Plonger les babas froids dans le sirop tiède à l'aide d'une écumoire. Les retourner délicatement et les laisser s'imbiber jusqu'à ce qu'ils soient bien gorgés — ils doivent avoir gonflé et être bien souples au toucher.",
+          "type": "assemblage",
+          "conseil": "Un bon baba bien imbibé a absorbé environ son poids en sirop. Il doit être souple, fondant, et rendre un peu de sirop quand on appuie doucement. Si les babas sont très secs, les imbiber deux fois à 10 minutes d'intervalle."
+        },
+        {
+          "numero": 7,
+          "titre": "Réaliser le lemon curd",
+          "description": "Dans une casserole, mélanger le jus de citron vert, les œufs et le sucre. Chauffer à 80°C en fouettant constamment. Hors du feu, ajouter la gélatine réhydratée. Laisser refroidir à 50°C puis incorporer le beurre froid en dés au mixeur plongeant. Couler dans des verrines ou des moules. Réfrigérer 2 heures.",
+          "duree_min": 120,
+          "type": "technique",
+          "conseil": "Le lemon curd se prépare idéalement la veille pour faciliter l'organisation. Il se conserve 5 jours au réfrigérateur filmé au contact."
+        },
+        {
+          "numero": 8,
+          "titre": "Dresser et servir",
+          "description": "Disposer les babas imbibés sur les assiettes. Napper d'un peu de sirop réduit. Accompagner d'une quenelle ou d'une verrine de lemon curd. Décorer de zestes de citron vert confits et de quelques feuilles de menthe si souhaité.",
+          "type": "dressage"
+        }
+      ],
+      "conseils": [
+        {
+          "titre": "La cachaça peut être remplacée",
+          "texte": "Si vous ne trouvez pas de cachaça, le rhum blanc agricole est le substitut le plus proche. Le rhum ambré apportera plus de rondeur mais moins de vivacité citron. Pour une version sans alcool, augmenter le jus de citron vert et ajouter de la fleur d'oranger."
+        },
+        {
+          "titre": "Organisation",
+          "texte": "Les babas peuvent être cuits et congelés non imbibés plusieurs semaines à l'avance. Les imbiber le jour J directement congelés dans le sirop chaud — l'imbibage en sera même meilleur."
+        },
+        {
+          "titre": "Conservation",
+          "texte": "Les babas imbibés se conservent 2 jours au réfrigérateur dans leur sirop. Les couvrir pour qu'ils ne sèchent pas. Ne jamais congeler un baba imbibé."
+        }
+      ],
+      "tags": [
+        "baba",
+        "cachaça",
+        "citron vert",
+        "lemon curd",
+        "levure",
+        "imbibage",
+        "festif"
+      ],
+      "saison_conseillee": ["Printemps", "Été"],
+      "statut": "publié",
+      "images": ["/images/baba-caipi.jpg"]
+    },
+    {
+      "id": 25,
+      "slug": "finger-praline",
+      "titre": "Finger praliné — dacquoise noisette, croustillant, diplomate & praliné pécan",
+      "description": "Le finger praliné est une pâtisserie individuelle composée de plusieurs textures superposées avec précision : un biscuit dacquoise noisette moelleux, un croustillant praliné croquant, une crème diplomate au praliné onctueuse, et un praliné pécan maison intense. Chaque bouchée offre un jeu de textures contrasté et une progression aromatique autour de la noisette et du caramel. C'est une pièce technique, représentative du niveau intermédiaire en formation pâtisserie, à réaliser en 2,5 cm × 9,5 cm.",
+      "categorie": "patisseries-individuelles",
+      "categorie_label": "Pâtisseries individuelles",
+      "source": "recette de formation",
+      "difficulte": "Difficile",
+      "portions": 20,
+      "portions_unite": "fingers (2,5 cm × 9,5 cm)",
+      "temps": {
+        "preparation_min": 90,
+        "cuisson_min": 25,
+        "repos_min": 240,
+        "total_min": 355,
+        "note_repos": "Repos au froid pour la crème diplomate et le montage. À préparer sur 2 jours idéalement."
+      },
+      "materiel": [
+        "Robot pâtissier avec fouet",
+        "Poche à douille",
+        "Plaque de cuisson + papier sulfurisé",
+        "Cadre ou moule rectangulaire",
+        "Thermomètre",
+        "Mixeur plongeant",
+        "Casserole",
+        "Chinois"
+      ],
+      "ingredients": [
+        {
+          "groupe": "Dacquoise noisette",
+          "items": [
+            {
+              "quantite": 500,
+              "unite": "g",
+              "nom": "blancs d'œufs"
+            },
+            {
+              "quantite": 250,
+              "unite": "g",
+              "nom": "sucre semoule"
+            },
+            {
+              "quantite": 350,
+              "unite": "g",
+              "nom": "sucre glace tamisé"
+            },
+            {
+              "quantite": 350,
+              "unite": "g",
+              "nom": "poudre de noisette tamisée"
+            },
+            {
+              "quantite": 70,
+              "unite": "g",
+              "nom": "farine tamisée"
+            }
+          ]
+        },
+        {
+          "groupe": "Croustillant praliné",
+          "items": [
+            {
+              "quantite": 400,
+              "unite": "g",
+              "nom": "chocolat au lait (ou blanc)"
+            },
+            {
+              "quantite": 500,
+              "unite": "g",
+              "nom": "feuillantine (gavottes émiettées)"
+            },
+            {
+              "quantite": 300,
+              "unite": "g",
+              "nom": "praliné"
+            }
+          ]
+        },
+        {
+          "groupe": "Crème diplomate praliné",
+          "items": [
+            {
+              "quantite": 825,
+              "unite": "g",
+              "nom": "lait entier"
+            },
+            {
+              "quantite": 300,
+              "unite": "g",
+              "nom": "jaunes d'œufs"
+            },
+            {
+              "quantite": 100,
+              "unite": "g",
+              "nom": "sucre semoule"
+            },
+            {
+              "quantite": 60,
+              "unite": "g",
+              "nom": "maïzena"
+            },
+            {
+              "quantite": 5,
+              "unite": null,
+              "nom": "feuilles de gélatine"
+            },
+            {
+              "quantite": 675,
+              "unite": "g",
+              "nom": "praliné"
+            },
+            {
+              "quantite": 1600,
+              "unite": "g",
+              "nom": "crème fouettée"
+            },
+            {
+              "quantite": 250,
+              "unite": "g",
+              "nom": "mascarpone (optionnel, pour plus de tenue)"
+            }
+          ]
+        },
+        {
+          "groupe": "Praliné noix de pécan",
+          "items": [
+            {
+              "quantite": 200,
+              "unite": "g",
+              "nom": "sucre semoule"
+            },
+            {
+              "quantite": 200,
+              "unite": "g",
+              "nom": "noix de pécan"
+            },
+            {
+              "quantite": 30,
+              "unite": "g",
+              "nom": "eau"
+            },
+            {
+              "quantite": 2,
+              "unite": null,
+              "nom": "pincées de sel"
+            }
+          ]
+        }
+      ],
+      "etapes": [
+        {
+          "numero": 1,
+          "titre": "Dacquoise noisette — monter les blancs",
+          "description": "Monter les blancs en neige ferme en incorporant le sucre semoule progressivement en trois fois. Les blancs doivent former un bec d'oiseau ferme et brillant.",
+          "type": "technique",
+          "conseil": "Des blancs bien fermes sont essentiels pour que le biscuit soit léger et aéré. Des blancs trop mous donneront une dacquoise plate et dense."
+        },
+        {
+          "numero": 2,
+          "titre": "Dacquoise noisette — incorporer les poudres et cuire",
+          "description": "Tamiser ensemble le sucre glace, la poudre de noisette et la farine. Incorporer délicatement en pluie sur les blancs montés à la maryse, en soulevant sans casser. Dresser à la poche en bandes sur plaque et cuire à 180°C pendant 15 minutes.",
+          "duree_min": 15,
+          "type": "cuisson",
+          "conseil": "La dacquoise doit être légèrement dorée en surface et souple au toucher — pas sèche. Elle continue de cuire un peu sur la plaque chaude après la sortie du four."
+        },
+        {
+          "numero": 3,
+          "titre": "Croustillant praliné",
+          "description": "Faire fondre le chocolat au bain-marie. Hors du feu, ajouter le praliné et mélanger. Incorporer la feuillantine émiettée délicatement à la maryse pour ne pas trop la casser. Étaler immédiatement en couche fine sur la dacquoise froide à l'aide d'une spatule. Réfrigérer 20 minutes pour faire prendre.",
+          "duree_min": 20,
+          "type": "assemblage",
+          "conseil": "La feuillantine (crêpes gavottes émiettées) est l'élément croustillant par excellence. Ne pas trop l'écraser lors du mélange — des morceaux irréguliers donnent plus de mâche et de plaisir en bouche."
+        },
+        {
+          "numero": 4,
+          "titre": "Crème pâtissière pralinée",
+          "description": "Porter le lait à ébullition. Blanchir les jaunes avec le sucre et la maïzena. Verser le lait bouillant sur les jaunes, remettre sur feu et cuire en fouettant jusqu'à épaississement. Hors du feu, ajouter la gélatine réhydratée et le praliné. Mixer. Filmer au contact et refroidir rapidement à 4°C.",
+          "type": "technique",
+          "conseil": "La crème pâtissière doit être refroidie rapidement pour des raisons d'hygiène et pour stopper la cuisson. L'étaler en couche fine sur une plaque filmée et la placer au réfrigérateur accélère le processus."
+        },
+        {
+          "numero": 5,
+          "titre": "Crème diplomate praliné",
+          "description": "Lisser la crème pâtissière pralinée froide au fouet. Monter la crème liquide avec le mascarpone en chantilly souple. Incorporer un tiers de chantilly vigoureusement dans la crème pâtissière pour l'assouplir, puis le reste délicatement à la maryse.",
+          "type": "assemblage",
+          "conseil": "La crème diplomate est plus légère qu'une crème pâtissière seule car la chantilly lui apporte de l'air et de la légèreté. Ne pas trop mélanger : des mouvements amples et souples préservent la texture aérée."
+        },
+        {
+          "numero": 6,
+          "titre": "Praliné pécan",
+          "description": "Cuire le sucre et l'eau à 121°C. Jeter les noix de pécan torréfiées dans le caramel, remuer jusqu'au sablage puis recuisson. Débarrasser sur Silpat, laisser refroidir complètement puis mixer jusqu'à obtenir une pâte lisse. Ajouter le sel en milieu de mixage.",
+          "type": "technique",
+          "conseil": "Le praliné pécan peut être réalisé la veille et conservé dans un pot hermétique à température ambiante. Il sera ainsi prêt pour le montage final."
+        },
+        {
+          "numero": 7,
+          "titre": "Montage des fingers",
+          "description": "Découper la dacquoise + croustillant en rectangles de 2,5 cm × 9,5 cm. Dresser la crème diplomate pralinée à la poche par-dessus. Pocher un trait de praliné pécan sur la crème. Réfrigérer minimum 2 heures avant dégustation.",
+          "duree_min": 120,
+          "type": "assemblage",
+          "conseil": "Pour un montage net et régulier, utiliser une règle et un couteau bien aiguisé légèrement chauffé à la flamme pour couper les rectangles. Un couteau froid arracherait le croustillant."
+        }
+      ],
+      "conseils": [
+        {
+          "titre": "Organisation sur 2 jours",
+          "texte": "Jour 1 : réaliser la dacquoise, le croustillant, la crème pâtissière pralinée et le praliné pécan. Jour 2 : monter la crème diplomate, assembler et finir les fingers. Cette organisation évite le stress et garantit que toutes les préparations sont bien froides pour le montage."
+        },
+        {
+          "titre": "Le mascarpone dans la diplomate",
+          "texte": "L'ajout de mascarpone dans la crème fouettée est optionnel mais recommandé : il apporte plus de tenue et un goût plus riche. Sans lui, la crème diplomate tiendra moins longtemps à température ambiante."
+        },
+        {
+          "titre": "Conservation",
+          "texte": "Les fingers se conservent 24 heures au réfrigérateur. Après, la feuillantine perd progressivement son croustillant au contact de l'humidité de la crème. Les consommer le plus tôt possible après montage."
+        }
+      ],
+      "tags": [
+        "finger",
+        "praliné",
+        "noisette",
+        "dacquoise",
+        "diplomate",
+        "pécan",
+        "croustillant",
+        "individuel"
+      ],
+      "saison_conseillee": ["Automne", "Hiver"],
+      "statut": "publié",
+      "images": ["/images/finger-praline.jpg"]
+    }
+  ]
+}
