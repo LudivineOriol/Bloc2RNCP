@@ -388,6 +388,74 @@ def connexion():
 
 
 # =========================================================
+# FAVORIS
+# =========================================================
+
+@app.route('/utilisateurs/<int:id_utilisateur>/favoris', methods=['GET'])
+def liste_favoris(id_utilisateur):
+    """Renvoie la liste des recettes mises en favori par un utilisateur."""
+    cur = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
+    cur.execute("""
+        SELECT f.id_favori, f.date_ajout, r.id_recette, r.slug, r.titre, r.image
+        FROM Favoris f
+        JOIN Recette r ON f.id_recette = r.id_recette
+        WHERE f.id_utilisateur = %s
+        ORDER BY f.date_ajout DESC
+    """, (id_utilisateur,))
+    favoris = cur.fetchall()
+    cur.close()
+    return jsonify(favoris), 200
+
+
+@app.route('/favoris', methods=['POST'])
+def ajouter_favori():
+    data = request.get_json()
+
+    champs_requis = ['id_utilisateur', 'id_recette']
+    for champ in champs_requis:
+        if champ not in data:
+            return jsonify({"erreur": f"Le champ '{champ}' est obligatoire"}), 400
+
+    cur = mysql.connection.cursor()
+
+    # On évite les doublons : cette recette est-elle déjà en favori pour cet utilisateur ?
+    cur.execute("""
+        SELECT id_favori FROM Favoris
+        WHERE id_utilisateur = %s AND id_recette = %s
+    """, (data['id_utilisateur'], data['id_recette']))
+    if cur.fetchone():
+        cur.close()
+        return jsonify({"erreur": "Cette recette est déjà dans les favoris"}), 400
+
+    cur.execute("""
+        INSERT INTO Favoris (date_ajout, id_recette, id_utilisateur)
+        VALUES (CURDATE(), %s, %s)
+    """, (data['id_recette'], data['id_utilisateur']))
+    mysql.connection.commit()
+
+    nouvel_id = cur.lastrowid
+    cur.close()
+
+    return jsonify({"message": "Recette ajoutée aux favoris", "id_favori": nouvel_id}), 201
+
+
+@app.route('/favoris/<int:id_favori>', methods=['DELETE'])
+def supprimer_favori(id_favori):
+    cur = mysql.connection.cursor()
+
+    cur.execute("SELECT id_favori FROM Favoris WHERE id_favori = %s", (id_favori,))
+    if not cur.fetchone():
+        cur.close()
+        return jsonify({"erreur": "Favori introuvable"}), 404
+
+    cur.execute("DELETE FROM Favoris WHERE id_favori = %s", (id_favori,))
+    mysql.connection.commit()
+    cur.close()
+
+    return jsonify({"message": "Retiré des favoris"}), 200
+
+
+# =========================================================
 # LANCEMENT DU SERVEUR
 # =========================================================
 
