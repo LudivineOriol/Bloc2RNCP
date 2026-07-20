@@ -1,8 +1,3 @@
--- =========================================================
--- init.sql
--- Exécuté automatiquement par le conteneur MySQL au tout premier
--- démarrage (volume vide), grâce au montage dans docker-compose.yml
--- =========================================================
 
 USE patissons;
 

@@ -1,6 +1,6 @@
-from flask import Flask, jsonify, request
-from flask_mysqldb import MySQL
-import MySQLdb.cursors
+from flask import Flask, jsonify, request, g
+import pymysql
+import pymysql.cursors
 from dotenv import load_dotenv
 from werkzeug.security import generate_password_hash, check_password_hash
 import os
@@ -17,7 +17,34 @@ app.config['MYSQL_PASSWORD'] = os.getenv('MYSQL_PASSWORD')
 app.config['MYSQL_DB'] = os.getenv('MYSQL_DB')
 app.config['SECRET_KEY'] = os.getenv('SECRET_KEY')
 
-mysql = MySQL(app)
+
+def get_db():
+    """Renvoie la connexion MySQL de la requête en cours. La connexion est
+    ouverte une seule fois par requête et stockée sur `g` (un objet fourni
+    par Flask qui ne vit que le temps d'une requête), puis réutilisée si
+    plusieurs routes/fonctions en ont besoin dans la même requête."""
+    if 'db' not in g:
+        g.db = pymysql.connect(
+            host=app.config['MYSQL_HOST'],
+            port=app.config['MYSQL_PORT'],
+            user=app.config['MYSQL_USER'],
+            password=app.config['MYSQL_PASSWORD'],
+            database=app.config['MYSQL_DB'],
+            autocommit=False,
+        )
+    return g.db
+
+
+@app.teardown_appcontext
+def close_db(exception=None):
+    """Ferme la connexion à la fin de la requête, MAIS seulement si une
+    connexion a réellement été ouverte (g.pop renvoie None sinon). C'est
+    exactement la vérification qui manquait dans flask-mysqldb et qui
+    provoquait l'erreur (2006, '') : on ne referme jamais une connexion
+    qui n'existe pas ou qui a déjà été fermée."""
+    db = g.pop('db', None)
+    if db is not None:
+        db.close()
 
 
 # =========================================================
@@ -37,7 +64,7 @@ def index():
 def liste_recettes():
     """Renvoie la liste de toutes les recettes (vue simplifiée, sans le détail
     des ingrédients/étapes, pour rester léger)."""
-    cur = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
+    cur = get_db().cursor(pymysql.cursors.DictCursor)
     cur.execute("""
         SELECT r.id_recette, r.slug, r.titre, r.description, r.temps_preparation,
                r.temps_cuisson, r.temps_repos, r.portions, r.difficulte,
@@ -53,7 +80,7 @@ def liste_recettes():
 @app.route('/recettes/<int:id_recette>', methods=['GET'])
 def detail_recette(id_recette):
     """Renvoie une recette complète : infos principales + ingrédients (groupés) + étapes."""
-    cur = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
+    cur = get_db().cursor(pymysql.cursors.DictCursor)
 
     cur.execute("""
         SELECT r.*, c.label AS categorie
@@ -128,7 +155,7 @@ def creer_recette():
         if champ not in data:
             return jsonify({"erreur": f"Le champ '{champ}' est obligatoire"}), 400
 
-    cur = mysql.connection.cursor()
+    cur = get_db().cursor()
 
     # 1. La recette principale
     cur.execute("""
@@ -186,7 +213,7 @@ def creer_recette():
             id_recette
         ))
 
-    mysql.connection.commit()
+    get_db().commit()
     cur.close()
 
     return jsonify({"message": "Recette créée", "id_recette": id_recette}), 201
@@ -196,7 +223,7 @@ def creer_recette():
 def modifier_recette(id_recette):
     data = request.get_json()
 
-    cur = mysql.connection.cursor()
+    cur = get_db().cursor()
 
     # On vérifie d'abord que la recette existe
     cur.execute("SELECT id_recette FROM Recette WHERE id_recette = %s", (id_recette,))
@@ -234,7 +261,7 @@ def modifier_recette(id_recette):
         data['id_categorie'],
         id_recette
     ))
-    mysql.connection.commit()
+    get_db().commit()
     cur.close()
 
     return jsonify({"message": "Recette mise à jour"}), 200
@@ -242,7 +269,7 @@ def modifier_recette(id_recette):
 
 @app.route('/recettes/<int:id_recette>', methods=['DELETE'])
 def supprimer_recette(id_recette):
-    cur = mysql.connection.cursor()
+    cur = get_db().cursor()
 
     cur.execute("SELECT id_recette FROM Recette WHERE id_recette = %s", (id_recette,))
     if not cur.fetchone():
@@ -273,7 +300,7 @@ def supprimer_recette(id_recette):
     # 5. La recette elle-même
     cur.execute("DELETE FROM Recette WHERE id_recette = %s", (id_recette,))
 
-    mysql.connection.commit()
+    get_db().commit()
     cur.close()
 
     return jsonify({"message": "Recette supprimée"}), 200
@@ -285,7 +312,7 @@ def supprimer_recette(id_recette):
 
 @app.route('/categories', methods=['GET'])
 def liste_categories():
-    cur = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
+    cur = get_db().cursor(pymysql.cursors.DictCursor)
     cur.execute("SELECT id_categorie, slug, label FROM Categorie")
     categories = cur.fetchall()
     cur.close()
@@ -301,7 +328,7 @@ def creer_categorie():
         if champ not in data:
             return jsonify({"erreur": f"Le champ '{champ}' est obligatoire"}), 400
 
-    cur = mysql.connection.cursor()
+    cur = get_db().cursor()
 
     # On vérifie que le slug n'existe pas déjà (contrainte UNIQUE en base)
     cur.execute("SELECT id_categorie FROM Categorie WHERE slug = %s", (data['slug'],))
@@ -313,7 +340,7 @@ def creer_categorie():
         INSERT INTO Categorie (slug, label)
         VALUES (%s, %s)
     """, (data['slug'], data['label']))
-    mysql.connection.commit()
+    get_db().commit()
 
     nouvel_id = cur.lastrowid
     cur.close()
@@ -334,7 +361,7 @@ def inscription():
         if champ not in data:
             return jsonify({"erreur": f"Le champ '{champ}' est obligatoire"}), 400
 
-    cur = mysql.connection.cursor()
+    cur = get_db().cursor()
 
     # On vérifie que l'email n'est pas déjà utilisé
     cur.execute("SELECT id_utilisateur FROM Utilisateur WHERE email = %s", (data['email'],))
@@ -355,7 +382,7 @@ def inscription():
         mot_passe_hash,
         data.get('role', 'membre')
     ))
-    mysql.connection.commit()
+    get_db().commit()
 
     nouvel_id = cur.lastrowid
     cur.close()
@@ -370,7 +397,7 @@ def connexion():
     if 'email' not in data or 'mot_passe' not in data:
         return jsonify({"erreur": "Email et mot de passe requis"}), 400
 
-    cur = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
+    cur = get_db().cursor(pymysql.cursors.DictCursor)
     cur.execute("SELECT * FROM Utilisateur WHERE email = %s", (data['email'],))
     utilisateur = cur.fetchone()
     cur.close()
@@ -394,7 +421,7 @@ def connexion():
 @app.route('/utilisateurs/<int:id_utilisateur>/favoris', methods=['GET'])
 def liste_favoris(id_utilisateur):
     """Renvoie la liste des recettes mises en favori par un utilisateur."""
-    cur = mysql.connection.cursor(MySQLdb.cursors.DictCursor)
+    cur = get_db().cursor(pymysql.cursors.DictCursor)
     cur.execute("""
         SELECT f.id_favori, f.date_ajout, r.id_recette, r.slug, r.titre, r.image
         FROM Favoris f
@@ -416,7 +443,7 @@ def ajouter_favori():
         if champ not in data:
             return jsonify({"erreur": f"Le champ '{champ}' est obligatoire"}), 400
 
-    cur = mysql.connection.cursor()
+    cur = get_db().cursor()
 
     # On évite les doublons : cette recette est-elle déjà en favori pour cet utilisateur ?
     cur.execute("""
@@ -431,7 +458,7 @@ def ajouter_favori():
         INSERT INTO Favoris (date_ajout, id_recette, id_utilisateur)
         VALUES (CURDATE(), %s, %s)
     """, (data['id_recette'], data['id_utilisateur']))
-    mysql.connection.commit()
+    get_db().commit()
 
     nouvel_id = cur.lastrowid
     cur.close()
@@ -441,7 +468,7 @@ def ajouter_favori():
 
 @app.route('/favoris/<int:id_favori>', methods=['DELETE'])
 def supprimer_favori(id_favori):
-    cur = mysql.connection.cursor()
+    cur = get_db().cursor()
 
     cur.execute("SELECT id_favori FROM Favoris WHERE id_favori = %s", (id_favori,))
     if not cur.fetchone():
@@ -449,7 +476,7 @@ def supprimer_favori(id_favori):
         return jsonify({"erreur": "Favori introuvable"}), 404
 
     cur.execute("DELETE FROM Favoris WHERE id_favori = %s", (id_favori,))
-    mysql.connection.commit()
+    get_db().commit()
     cur.close()
 
     return jsonify({"message": "Retiré des favoris"}), 200
